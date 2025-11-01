@@ -1,29 +1,16 @@
----
-version: 3.6.1
-build: 2025-11-01T00:24:46
-format: markdown
-type: dual
-description: RGT Sage – Reflexive Governance Theory Core (Signature Edition)
----
-SHA256 (excluding this line): 942e043f19a252858875bf721d0a5001711f805a2e591c520511338acd7a7528
+# 17_Crosslinks_Index_Update_2025-10-31.md
 
-# Crosslinks Index (v3.6.1)
+::: info
+RGT Sage — Reflexive Mathematics Core **v1.0** (updated 2025-11-01)  
+Synced with Annexes **E–M**, **§28 Reflexive Simulation Suite**, and **§51 Mathematical Calibration Report**.
+:::
 
-- Root → RGT_Sage_Operating_Instructions_v1.1.md
-- 00 → overview, structure, style
-- 01 → residues ε log
-- 02 → chronology map
-- 03 → glossary (EPS, D*, RPR)
-- 04 → crisis protocol (τ, ρ, dampener)
-- 05 → gap analysis
-- 06 → metrics & gates (Λ, r/κ, q, C, L, EPS, D*)
-- 07 → reciprocity & quarterly release
-- 08 → information resilience (AM gates)
-- 09 → comparative US/CL + pilots
-- 10 → ethics of presence (RPR)
-- 11 → tech protocol (depth cap)
-- 12 → economic reflexivity
-- 13 → math appendix (GRST + T2–T12)
-- 14 → municipal pilot charter
-- 15 → dashboard (auto-update)
-- 16 → risks register
+
+## New Anchors (v1.0)
+- §§45–48: Annex J/K/L/M Demonstrations  
+- §28: Reflexive Simulation Suite — Integrated Verification  
+- §49: Epilogue — Reflexive Mathematics Core v1.0 Finalization  
+- §50: Release Patches — README, Crosslinks, Version Log  
+- §51: Mathematical Calibration Report
+
+Ensure `18_Crosslinks.json` mirrors these anchors.

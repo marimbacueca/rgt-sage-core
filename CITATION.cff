@@ -1,17 +1,19 @@
+# This CFF is aligned to v1.0; update DOI when Zenodo issues it.
 cff-version: 1.2.0
-title: Reflexive Governance Theory (RGT Sage) — Signature Edition
-version: 3.6.1
-message: If you use this work, please cite this repository (and the Zenodo DOI once available).
-type: software
+message: "If you use RGT Sage, please cite this release."
+title: "RGT Sage — Reflexive Governance Theory Core v1.0"
+version: "1.0"
+date-released: "2025-11-01"
 authors:
-  - family-names: Gantz
-    given-names: Katja
-    # orcid: 0000-0000-0000-0000   # (optional—fill later)
-repository-code: https://github.com/marimbacueca/rgt-sage-core
-license: CC-BY-NC-SA-4.0
-keywords:
-  - governance
-  - systems theory
-  - reflexivity
-  - civic technology
-date-released: 2025-11-01
+  - family-names: "Gantz"
+    given-names: "Katja"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.TBD"
+repository-code: "https://example.com/rgt-sage"
+abstract: >
+  Reflexive Governance Theory (RGT Sage) v1.0 finalizes the mathematical core (Annexes E–M):
+  consistency, equilibrium, vector ethics, compositional stability, reflexive games, bounded incompleteness,
+  and reflexive entropy. §28 provides a reproducible simulation suite; §51 links proofs to calibration metrics.
+keywords: [reflexivity, governance, control theory, game theory, ethics, entropy, stability]
+license: "CC-BY-NC-SA-4.0"

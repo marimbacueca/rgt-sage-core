@@ -1,33 +1,14 @@
----
-version: 3.6.1
-build: 2025-11-01T00:24:46
-format: markdown
-type: dual
-description: RGT Sage – Reflexive Governance Theory Core (Signature Edition)
----
-SHA256 (excluding this line): c11fe1d6d2f7e64bf3b18613afa353c738bb5226b6e21653c42b2a4583338880
+# 07_Resource_Reciprocity_Addendum.md
 
-# Resource Reciprocity Addendum (v3.6.1)
+::: info
+RGT Sage — Reflexive Mathematics Core **v1.0** (updated 2025-11-01)
+This file was patched to align with Annexes **E–M**, the **§28 Reflexive Simulation Suite**, and the **§51 Mathematical Calibration Report**.
+:::
 
-**Principle.** Publicly funded learning → public knowledge with provenance.
 
-**Policy.**
-- Quarterly release (auto-refresh) with lineage graphs and hashes.
-- Two-key acceptance: KPI_A (performance) AND KPI_B (coherence C).
+## Ethics Gate Alignment (v1.0)
+All reciprocity policies MUST pass vector EG gate with cone C(α): HF ≥ α‖others‖ (α default 0.5).  
+Use projection Π_C(EG_vec) before resource allocation to guarantee Pareto-safe moves.
 
-**Enforcement.**
-- Missing provenance ⇒ block use; penalties exceed opacity gains.
-
-## Automatic Data-Refresh Protocol (Quarterly)
-
-**Schedule:** Every 90 days (RRULE:FREQ=QUARTERLY).
-
-**Process:**
-1) `web.search("official open data" + domain + date range)`
-2) Extract summary statistics only (no PII); compute EPS.
-3) Recompute \(\phi\) and \((\alpha,K)\) calibration; update \(q^\*, \tau, C^\*\) if indicated.
-4) Append citation block with signed hash; update dashboard and manifest.
-
-**Fallback:** On fetch failure, retain last stable calibration and flag for human review.
-
-**Controls:** Manual override via `RGT_ADMIN: update off`.
+## Stability & Reciprocity
+If Γ spikes (interdependence surge), throttle η and lengthen dwell time T_d per Annex J §J.9 to preserve V_tot descent.

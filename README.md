@@ -8,7 +8,7 @@ sha256: pending-after-release
 ---
 
 # RGT Sage — Reflexive Governance Theory Core (v1.0)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.TBD.svg)](https://doi.org/10.5281/zenodo.TBD)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17503827.svg)](https://doi.org/10.5281/zenodo.17503827)
 
 **Purpose.**  
 RGT Sage v1.0 marks the **completion of the Reflexive Mathematics Core** — a closed, empirically validated set of theorems uniting logic, ethics, stability, strategy, and thermodynamics under one reflexive framework.

@@ -1,31 +1,72 @@
 # Contributing to RGT Sage
 
-Thanks for helping improve Reflexive Governance Theory (RGT)! This project favors clarity, legitimacy, and safety.
+Thank you for your interest in improving **Reflexive Governance Theory (RGT Sage)**!  
+This project values clarity, legitimacy, and safety over speed.
 
-## How to contribute
-1. **Discuss first** – Open an Issue describing the change (math, pedagogy, docs, or ops).
-2. **Fork & branch** – Create a feature branch: `feat/<short-name>`.
-3. **Standards**
-   - Follow the 19-file structure; do not exceed 20 files.
-   - Keep math changes in `13_Mathematical_Foundations_Appendix_v0_1.md` and reference them in the README.
-   - Keep operating rules in `RGT_Sage_Operating_Instructions_v1.1.md`.
-   - Add or update hashes via the manifest script if you change file bodies.
-4. **Conventional Commits**
-   - `feat:` new theorem/module
-   - `fix:` math/ops corrections
-   - `docs:` narrative/glossary updates
-   - `chore:` plumbing, manifest refresh
-   - `refactor:` structure without behavior change
-5. **Pull requests**
-   - One focused change per PR.
-   - Add a short rationale and any citations (official sources preferred).
-   - Keep any public examples anonymized; no PII.
+Maintainer: **Katja Gantz**  
+GitHub: [@marimbacueca](https://github.com/marimbacueca)
 
-## Hash verification
-Run `verify_hashes.py` and include “OK” in your PR description.
+---
 
-## Code of Conduct
-Be respectful. No harassment, hate speech, or disinformation campaigns.
+## 🧭 How to Contribute
 
-## License
-By contributing, you agree your work will be licensed under the repository’s LICENSE.
+1. **Discuss First**  
+   Open an *Issue* describing your proposed change (mathematical, philosophical, pedagogical, or documentation-related).
+
+2. **Fork & Branch**  
+   - Create a feature branch:  
+     ```bash
+     git checkout -b feat/<short-name>
+     ```
+
+3. **Follow the Standards**
+   - Keep total file count ≤ 20.  
+   - Place mathematical updates in  
+     `13_Mathematical_Foundations_Appendix_v0_1.md`.  
+   - Behavioral or procedural updates go in  
+     `RGT_Sage_Operating_Instructions_v1.1.md`.  
+   - After editing, run `verify_hashes.py` to regenerate SHA-256 hashes in the manifest.
+
+4. **Commit Format (Conventional Commits)**
+   - `feat:` new theorem/module  
+   - `fix:` mathematical or operational correction  
+   - `docs:` documentation, glossary, or narrative changes  
+   - `chore:` manifest or repository maintenance  
+   - `refactor:` structural change without altering meaning  
+
+5. **Pull Requests**
+   - Keep PRs focused and well-described.  
+   - Cite legitimate academic or institutional sources where possible.  
+   - Never include personal data (PII) or unverified datasets.  
+   - Include your local verification output (`OK` from `verify_hashes.py`).
+
+---
+
+## 🧩 Review Principles
+Submissions are reviewed for:
+- **Clarity** — readable and reproducible reasoning  
+- **Coherence** — consistency with Reflexive Governance Theory axioms  
+- **Integrity** — accurate citations, verified hashes  
+- **Ethical Gradient** — upholding R*, fairness, and transparency
+
+---
+
+## 🌱 Code of Conduct
+All contributors agree to:
+- Treat others with respect and intellectual honesty  
+- Avoid harassment, hate speech, or misinformation  
+- Engage in good-faith debate and constructive feedback  
+
+Violations may result in comment moderation or removal.
+
+---
+
+## 📜 License
+Contributions are accepted under the repository’s license:  
+**Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International (CC BY-NC-SA 4.0).**
+
+By submitting a pull request, you agree that your contributions will be released under this license.
+
+---
+
+*RGT Sage grows through dialogue, reflection, and care — thank you for being part of its evolution.*

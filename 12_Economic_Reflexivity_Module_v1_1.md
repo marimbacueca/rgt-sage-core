@@ -1,19 +1,29 @@
----
-version: 3.6.1
-build: 2025-11-01T00:24:46
-format: markdown
-type: dual
-description: RGT Sage – Reflexive Governance Theory Core (Signature Edition)
----
-SHA256 (excluding this line): 8d751df58990a2b910ccd52a5128a66aa52fe3d8f232aeffb89a777a45831e74
+# 12_Economic_Reflexivity_Module_v1_1.md
 
-# Economic Reflexivity Module (v3.6.1)
+::: info
+RGT Sage — Reflexive Mathematics Core **v1.0** (updated 2025-11-01)  
+Synced with Annexes **E–M**, **§28 Reflexive Simulation Suite**, and **§51 Mathematical Calibration Report**.
+:::
 
-**Focus.** Policy cadence in markets; audit batching for regulatory load.
 
-**Levers.**
-- Rate caps tied to interpretive capacity (r/κ).
-- Two-key release conditions (macro KPI + coherence C).
-- Transparency Floor with hashed public briefs.
+## Purpose
+Model resource allocation and policy coupling as **Variational Inequalities (VI)** with reflexive ethics and stability constraints.
 
-**Outcomes.** Reduced oscillation; higher legitimacy floor via fairness bound.
+## Mathematical Core Links
+- **VI Existence/Uniqueness** (Annex B): Stampacchia; strong monotonicity μ and Lipschitz L.
+- **Reflexive Game Theory** (Annex K): finite-depth beliefs → infinite-depth limit; extragradient solver.
+- **Stability** (Annex J): interconnections bounded via ρ(Γ)<1.
+- **Ethics Gate** (Annex G): feasibility cone C(α) on EG_vec.
+
+## Solver Recipe (Ops Default)
+1. Choose depth d s.t. q^d ≤ ε (belief contraction).  
+2. Run **projected extragradient** with stepsize τ < μ/L².  
+3. Enforce Safe & cone gate each iteration; log (μ, L, τ, ε).
+
+## Policy Parameters
+- Default α=0.5 (HF dominance).  
+- Initial η*= (1−a_max)/(2 L_K ‖C_P‖), ρ*=(a_max+1)/2 (Annex F).  
+- Stability target: ρ(Γ)≤0.9; dwell-time T_d ≥ C/(1−ρ_*).
+
+## Outputs
+- Allocation vector x*, beliefs t*, invariant checks (ΔV_R≤0, H_R↑).

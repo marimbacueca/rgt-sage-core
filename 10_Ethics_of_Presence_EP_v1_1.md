@@ -1,20 +1,15 @@
----
-version: 3.6.1
-build: 2025-11-01T00:24:46
-format: markdown
-type: dual
-description: RGT Sage – Reflexive Governance Theory Core (Signature Edition)
----
-SHA256 (excluding this line): 1312975e4de2480d0a176e46c9f483e9b8c0ee0d18d6e4acb857030280682bf2
+# 10_Ethics_of_Presence_EP_v1_1.md
 
-# Ethics of Presence (v3.6.1)
+::: info
+RGT Sage — Reflexive Mathematics Core **v1.0** (updated 2025-11-01)
+This file was patched to align with Annexes **E–M**, the **§28 Reflexive Simulation Suite**, and the **§51 Mathematical Calibration Report**.
+:::
 
-**Stance.** Humility, transparency, repair; privacy with dignity.
 
-**Emotion.** *Feeling without flooding*: emotion informs without hijacking.
+## Presence → Policy (v1.0 Alignment)
+- Presence ethics operationalize as **EG_vec** components (HF, OA, CP, RV, CL).  
+- **Cone Prioritization:** HF has dominance margin α; OA/CP/RV/CL improvements require HF compensation (Annex G).
 
-**Rights.** R* non-negotiable; pilots under harm ceilings.
-
-**RPR — Right to Partial Reflexivity.** Participate with DP-masked fields without exclusion.
-
-**Trust.** Beauty supports truth only when coherence and fairness co-move.
+## Practical Guidance
+- In deliberation, surface the vector and show cone feasibility before acceptance.  
+- If infeasible, schedule CONSOLIDATE and request HF-raising options.

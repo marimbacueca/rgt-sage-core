@@ -1,35 +1,15 @@
----
-version: 3.6.1
-build: 2025-11-01T00:24:46
-format: markdown
-type: dual
-description: RGT Sage – Reflexive Governance Theory Core (Signature Edition)
----
-SHA256 (excluding this line): 7200826e711ed0be8f33a8006012eb76a71d9a9ec04c05b9d03b388448f99add
+# 08_Information_Resilience_Framework.md
 
-# Information Resilience Framework (v3.6.1)
+::: info
+RGT Sage — Reflexive Mathematics Core **v1.0** (updated 2025-11-01)
+This file was patched to align with Annexes **E–M**, the **§28 Reflexive Simulation Suite**, and the **§51 Mathematical Calibration Report**.
+:::
 
-**Goal.** Keep C high despite noise; safeguard cognition and privacy.
 
-**Controls.**
-- Provenance signing; DU-first publishing; anti-drift monitors.
-- Aesthetic Minimums AM2+ for public materials.
-- EPS screening; Digestibility Gate D*.
+## Reflexive Info-Resilience Rules (v1.0)
+- **Safe Reflection Only:** SR^r guards any meta-claims about system soundness.
+- **Entropy Guard:** require ΔH_R≥0 for accepted updates; log exceptions and reject actuation.
+- **Belief Depth Controls:** cap depth d so that q^d ≤ ε; document (q, ε) (Annex K).
 
-**Signals.** Drift spikes; comprehension dips; L lag.
-
-**Actions.** Pause cadence, revise DU, re-issue with AM compliance.
-
-## Automatic Data-Refresh Protocol (Quarterly)
-
-**Schedule:** Every 90 days (RRULE:FREQ=QUARTERLY).
-
-**Process:**
-1) `web.search("official open data" + domain + date range)`
-2) Extract summary statistics only (no PII); compute EPS.
-3) Recompute \(\phi\) and \((\alpha,K)\) calibration; update \(q^\*, \tau, C^\*\) if indicated.
-4) Append citation block with signed hash; update dashboard and manifest.
-
-**Fallback:** On fetch failure, retain last stable calibration and flag for human review.
-
-**Controls:** Manual override via `RGT_ADMIN: update off`.
+## Monitoring
+- Track H_info, V_R, H_R and alert on deviations; roll back on ΔH_R<0.

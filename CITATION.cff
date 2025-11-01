@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: Reflexive Governance Theory (RGT Sage) — Signature Edition
+version: 3.6.1
+message: If you use this work, please cite this repository (and the Zenodo DOI once available).
+type: software
+authors:
+  - family-names: Gantz
+    given-names: Katja
+    # orcid: 0000-0000-0000-0000   # (optional—fill later)
+repository-code: https://github.com/marimbacueca/rgt-sage-core
+license: CC-BY-NC-SA-4.0
+keywords:
+  - governance
+  - systems theory
+  - reflexivity
+  - civic technology
+date-released: 2025-11-01

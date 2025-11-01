@@ -1,130 +1,119 @@
 ---
-version: 3.6.1
-build: 2025-11-01T00:24:46Z
+version: 1.0
+build: 2025-11-01T21:24:56.512536Z
 format: markdown
 type: dual
-description: "RGT Sage – Reflexive Governance Theory Core (Signature Edition)"
-sha256: 14a2ca380befc106eb83e53b87dc6c2b4d1b2f6d3c4f438748007d6c4166bf78
+description: "RGT Sage – Reflexive Governance Theory Core (Mathematical Core Finalization)"
+sha256: pending-after-release
 ---
 
-# RGT Sage — Deployable Core (v3.6.1)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxxxx)
+# RGT Sage — Reflexive Governance Theory Core (v1.0)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.TBD.svg)](https://doi.org/10.5281/zenodo.TBD)
 
 **Purpose.**  
-A coherent, tamper-verified corpus for the **RGT Sage** agent: proofs, operations, pedagogy, dashboard, and culture adapters — finished to the edge of what can be done in-agent.
+RGT Sage v1.0 marks the **completion of the Reflexive Mathematics Core** — a closed, empirically validated set of theorems uniting logic, ethics, stability, strategy, and thermodynamics under one reflexive framework.
 
-**Signature narrative.**  
-Clear structure, humane tone, quiet metaphor. Governance as the choreography of awareness.
+**Signature Narrative.**  
+Governance as equilibrium between awareness and correction.  
+Mathematics as proof that reflexivity can learn faster than collapse.
 
 **Integrity.**  
-This file’s SHA-256 hash verifies corpus integrity (see header).
+This file’s SHA-256 hash verifies corpus integrity (see header).  
+For reproducibility, all numerical seeds and invariants are listed in §28 of the corpus.
 
 **Root File:** `RGT_Sage_Operating_Instructions_v1.1.md`
 
 ---
 
 ## Structure (≤20 files)
+
 00 README · 01 Learning Log · 02 Intellectual Map · 03 Glossary · 04 Crisis Protocol ·  
 05 Gap Analysis · 06 Metrics · 07 Reciprocity · 08 Information Resilience · 09 Comparative (US–Chile) ·  
 10 Ethics of Presence · 11 Phenomenological Tech · 12 Economic Reflexivity · 13 Mathematical Foundations ·  
 14 Municipal Pilot Charter · 15 Dashboard Spec · 16 Risks Register · 17 Crosslinks Index ·  
-18 Operating Instructions
+18 Operating Instructions · §28 Simulation Suite · §51 Calibration Report
 
 ---
 
-## Formal Theorems (closed set, v3.6.1)
+## Reflexive Mathematics Core (Annexes E–M)
 
-**GRST — Grand Reflexive Stability Theorem.**  
-For $x_{t+1}=f(x_t,u_t)+w_t$, $u_t=\Pi(Hx_t;\alpha,K)$,  
-if the composite operator $F(\alpha,K)$ satisfies $\rho(F)+\sum_\ell g_\ell<1$  
-and $r/\kappa\le1$, then S is BIBO stable and ISS. Residue $\varepsilon>0$ persists.
+| Layer | Annex | Core Result |
+|--------|--------|--------------|
+| Logic | E + L | Reflexive Consistency & Safe-bounded Incompleteness |
+| Dynamics | F + J | Global Equilibrium · Meta-Stability · Small-Gain · Delay Tolerance |
+| Ethics | G | Vector-Cone Lyapunov Descent · HF-Dominance |
+| Strategy | K | Reflexive Game Theory · Extragradient Convergence |
+| Thermodynamics | M | Reflexive Entropy · Irreversible Arrow of Time |
 
-**T2 — Irreversibility (Residue ε).**  
-Any do/undo cycle leaves $\varepsilon>0$. No perfect reversal; learning is monotone.
-
-**T3 — Auto-audit termination.**  
-If $\mathbb{E}[D_{t+1}\mid\mathcal F_t]\le\rho D_t$ with $\rho<1$, audits terminate within finite expected steps.
-
-**T4 — Rate–capacity danger threshold.**  
-Safe region $r\le r^\star<\kappa$.
-
-**T5 — Comprehension drives legitimacy.**  
-With $L=\phi(q,\text{perf},\text{fair},C)$ and $\partial L/\partial q>0$, small gains in $q$ lift $L$.
-
-**T6 — Bounded oscillation (stochastic).**  
-For linearization with $\rho(F)<1$, there exists $P\succ0$ solving the discrete Lyapunov equation and $\limsup \mathbb E[x_t^\top P x_t]=\operatorname{tr}(PW)$.  
-Nonlinear ISS: $\sup_t \mathbb E[V(x_t)]\le b/(1-c)$.
-
-**T7 — Audit-fatigue Batching Lemma.**  
-With arrival rate $\lambda$, window $W$, cap $B_{\max}$, and shared-step contraction $\rho_\kappa<1$: queues bounded, SLA finite, optimal $W^\*$ minimizes fatigue cost.
-
-**T8 — Multi-layer stability (small-gain).**  
-If $\|F_0\|+\sum_\ell g_\ell<1$, layered control remains stable.
-
-**T9 — Incentive-compatible mechanism M.**  
-Random-partition peer quadratic scoring with DP noise makes truthful reports a Bayes–Nash equilibrium; $m$-coalition resistance in expectation.
-
-**T10 — Fairness→Legitimacy bound.**  
-If $\phi$ is Lipschitz in fairness with constant $\gamma_f>0$ and $F\ge F^\*$, then $L\ge \phi(q,\text{perf},F^\*,C)$ and $\Delta L \ge \gamma_f \Delta F$.
-
-**T11 — Participation parity convergence.**  
-For $p_{t+1}=(1-\beta)p_t+\beta h(p_t,u_t)$ with $L_h<1$ and $u_t\ge u_{\min}$, we have $p_t\to p^\*$.
-
-**T12 — Aesthetic mediation (symbolic).**  
-If $\partial C/\partial B>0$ and $\partial L/\partial C>0$, then $\partial L/\partial B>0$.
+Each theorem is both **analytically proved** and **empirically verified** through §28’s mini-simulations:  
+cone-gating, small-gain stability, VI convergence, and entropy monotonicity.
 
 ---
 
-## Operational Architecture (executable logic)
+## Empirical Verification (§28 — Simulation Suite)
 
-- **Cadence limiter:** enforce $r/\kappa \le 0.8$ (soft), $\le 1.0$ (hard stop).  
-- **Rights gate $R^\*$:** lexical constraints; non-tradeable.  
-- **Auto-audit manager:** trigger band $[\tau-\delta,\tau+\delta]$; SLA ≤ 30 days; capacity-scaled batching.  
-- **Decision-cadence optimizer:** project $(\alpha,K)$ into safe set if $\Lambda \ge 1$ or $r>\kappa$; add Crisis Dampener if $|\Delta(r/\kappa)|>0.2$ in 2 cycles.  
-- **Coherence $C=P·D·(1-D_r)$:** provenance × digestibility × anti-drift; gate at $C^\*$.  
-- **Mechanism M:** random-fold peer scoring + DP; aggregate truthful signals; bias audit per segment.  
-- **Culture adapter $A_c$:** per-locale parameter packs (U.S., Chile).  
-- **Digestibility Gate $D^\*$:** ≤800 chars per insight, ≤5 visual layers.  
-- **Epistemic Provenance Score (EPS):** quarantine datasets with EPS < 0.6.  
-- **Reflexivity depth cap:** $\Lambda_{depth} \le 3$ to prevent meta-audit explosion.
+Four deterministic simulations validate the mathematical invariants:
 
----
+| Simulation | Property Verified | Key Invariant |
+|-------------|------------------|----------------|
+| Vector EG Cone (Annex G) | Ethics projection | HF ≥ α‖others‖ |
+| Small-Gain Stability (Annex J) | Meta-stability | ρ(Γ) < 1 |
+| Reflexive Game (Annex K) | Equilibrium convergence | τ < μ ⁄ L² |
+| Reflexive Entropy (Annex M) | Irreversibility | ΔH_R ≥ 0 |
 
-## Automatic Data-Refresh Protocol (Quarterly)
+All plots and JSON summaries are reproducible via:
 
-**Schedule:** Every 90 days (`RRULE:FREQ=QUARTERLY`).
-
-**Process**
-1. `web.search("official open data" + domain + date range)`  
-2. Extract summary statistics only (no PII); compute EPS.  
-3. Recompute $\phi$ and $(\alpha,K)$ calibration; update $q^\*, \tau, C^\*$ if indicated.  
-4. Append citation block with signed hash; update dashboard and manifest.
-
-**Fallback:** On fetch failure, retain last stable calibration and flag for human review.  
-**Controls:** Manual override via `RGT_ADMIN: update off`.
+```bash
+python RGT_SimSuite.py --all
+```
 
 ---
 
-## Pedagogy & Communication (Signature Style)
+## Toolchain (New in v1.0)
 
-- **Reflexive Classroom (12 modules):** discovery-first, story-later; three cognitive tracks (analytical, narrative, embodied).  
-- **Emotional regulation:** *feeling without flooding* — emotion as signal; regulation ≠ suppression.  
-- **Aquí y Ahora (US/CL):** same theorems, local metaphors; tone: warm, lucid, non-patronizing.  
-- **Aesthetic Minimums (AM1–AM3):** no public release below AM2; AM3 for official launches.  
-- **Right to Partial Reflexivity (RPR):** privacy-respecting participation with DP masking.
+| Tool | Function |
+|------|-----------|
+| **RGT_SimSuite.py** | Generates the four Annex simulations and produces JSON summaries. |
+| **Reflexive_Metrics_Validator.py** | Validates invariants (ΔV_R ≤ 0, ρ(Γ) < 1, H_R↑, τ < μ/L², cone feasibility). |
+| **workflows/release.yml** | Automated GitHub release + SHA-256 artifact upload. |
+| **workflows/validate.yml** | CI for reproducibility — runs sims and checks invariants. |
+| **workflows/lint.yml** | Enforces clean, reproducible code style (Ruff + Black). |
 
-> *RGT does not command; it listens in rhythm.  
-> Every audit is a breath, every correction a pulse.  
-> A system lives when its motion teaches it how to move.*  
+---
+
+## Operational Invariants
+
+ΔV_R ≤ 0 (Lyapunov descent)  
+ρ(Γ) < 1 (stability)  
+τ < μ / L² (solver safety)  
+H_R(t+1) ≥ H_R(t) (arrow of time)  
+HF − α‖others‖ ≥ 0 (ethical feasibility)
+
+These invariants define the reflexive boundary of stability and learning.
+
+---
+
+## Epilogue (§49)
+
+> **When systems learn to breathe, governance becomes awareness in motion.**  
 >  
-> — **Katja Gantz**, *Signature Edition v3.6.1*
+> Reflexive Mathematics Core v1.0 closes the circle of proof and presence:  
+> what was intuition is now theorem, and what was theorem is now testable.
 
 ---
 
 ## Change Log
-- v3.6.1 — Added quarterly auto-update, crisis dampener, EPS, D*, RPR, depth cap; narrative polish.
+
+- **v1.0 (2025-11-01)** — Mathematical Core finalized (Annexes E–M), Simulation Suite (§28),  
+  Mathematical Calibration Report (§51), tools + workflows added.  
+- **v3.6.1 → v1.0 bridge** — Transition from *Signature Edition* narrative corpus to  
+  empirical and mathematical closure.
 
 ---
 
 ## License
 Licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+---
+**RGT does not command; it listens in rhythm.  
+Every correction is an act of care.**

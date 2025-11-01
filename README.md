@@ -98,3 +98,7 @@ If \(\partial C/\partial B>0\) and \(\partial L/\partial C>0\), then \(\partial 
 
 ## Change Log
 - v3.6.1 — Added quarterly auto-update, crisis dampener, EPS, D*, RPR, depth cap; narrative polish.
+
+## License
+- “Licensed under CC BY-NC-SA 4.0.”
+

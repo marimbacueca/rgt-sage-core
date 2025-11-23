@@ -1,0 +1,261 @@
+{
+  "kind": "rgt-sage-manifest",
+  "name": "Reflexive Governance Theory — Sage Core",
+  "version": "2.0.0",
+  "architecture_version": "RGT_System_Architecture_v0_2",
+  "description": "Canonical file map and conceptual roles for the RGT Sage Core v2.0 specification.",
+  "build": "2025-11-23T00:00:00Z",
+  "layers": ["L0", "L1", "L2", "L3", "L4"],
+  "files": [
+    {
+      "id": "01",
+      "filename": "01_LearningLog_Summary.md",
+      "role": "meta_learning_log",
+      "layer_focus": ["L0", "L1", "L2", "L3", "L4"],
+      "status": "stable",
+      "summary": "High-level summary of major conceptual, mathematical, ethical, and architectural learnings that shaped RGT v2.0.",
+      "depends_on": ["02_Chronology_IntellectualMap.md", "03_RGT_Glossary.md", "06_Metrics_Appendix_Tables.md"],
+      "tags": ["meta", "history", "learning"]
+    },
+    {
+      "id": "02",
+      "filename": "02_Chronology_IntellectualMap.md",
+      "role": "meta_chronology",
+      "layer_focus": ["L0", "L1", "L2", "L3", "L4"],
+      "status": "stable",
+      "summary": "Intellectual timeline and conceptual evolution of Reflexive Governance Theory from early development to Architecture v0.2.",
+      "depends_on": [],
+      "tags": ["meta", "history", "map"]
+    },
+    {
+      "id": "03",
+      "filename": "03_RGT_Glossary.md",
+      "role": "glossary",
+      "layer_focus": ["L0", "L1", "L2", "L3", "L4"],
+      "status": "stable",
+      "summary": "Central glossary of RGT terms, indices, envelopes, loops, and governance concepts.",
+      "depends_on": [],
+      "tags": ["reference", "definitions"]
+    },
+    {
+      "id": "04",
+      "filename": "04_CrisisProtocol.md",
+      "role": "crisis_protocol",
+      "layer_focus": ["L1", "L2", "L3"],
+      "status": "stable",
+      "summary": "Procedures and control postures for handling crises, envelope violations, and severe drift states in RGT systems.",
+      "depends_on": ["03_RGT_Glossary.md", "06_Metrics_Appendix_Tables.md"],
+      "tags": ["operations", "safety", "protocol"]
+    },
+    {
+      "id": "05",
+      "filename": "05_Subsystem_Gap_Analysis.md",
+      "role": "gap_analysis",
+      "layer_focus": ["L1", "L2", "L3", "L4"],
+      "status": "stable",
+      "summary": "Map of missing, partial, or under-specified elements within the RGT architecture and modules.",
+      "depends_on": ["03_RGT_Glossary.md", "06_Metrics_Appendix_Tables.md", "17_Crosslinks_Index.md"],
+      "tags": ["analysis", "planning"]
+    },
+    {
+      "id": "06",
+      "filename": "06_Metrics_Appendix_Tables.md",
+      "role": "metrics_appendix",
+      "layer_focus": ["L0", "L1", "L2"],
+      "status": "stable",
+      "summary": "Tabular definitions of RGT indices, drift measures, α/K envelope parameters, safety indicators, and loop health metrics.",
+      "depends_on": ["03_RGT_Glossary.md"],
+      "tags": ["metrics", "reference"]
+    },
+    {
+      "id": "07",
+      "filename": "07_Resource_Reciprocity_Addendum.md",
+      "role": "reciprocity",
+      "layer_focus": ["L1", "L2", "L3"],
+      "status": "stable",
+      "summary": "Formalization of material, informational, symbolic, relational, and metabolic reciprocity in governance and economic flows.",
+      "depends_on": ["03_RGT_Glossary.md", "12_Economic_Reflexivity_Module.md"],
+      "tags": ["ethics", "economics", "fairness"]
+    },
+    {
+      "id": "08",
+      "filename": "08_Information_Resilience_Framework.md",
+      "role": "information_resilience",
+      "layer_focus": ["L0", "L1"],
+      "status": "stable",
+      "summary": "Framework for information provenance, signal quality, narrative resilience, and distortion handling in RGT.",
+      "depends_on": ["03_RGT_Glossary.md"],
+      "tags": ["information", "resilience", "signals"]
+    },
+    {
+      "id": "09",
+      "filename": "09_Comparative_Systems_Chile_USA.md",
+      "role": "comparative_case_study",
+      "layer_focus": ["L0", "L1", "L2", "L3"],
+      "status": "stable",
+      "summary": "Comparative governance analysis of Chile and the United States using drift, α/K posture, symbolic fields, and legitimacy dynamics.",
+      "depends_on": ["03_RGT_Glossary.md", "06_Metrics_Appendix_Tables.md"],
+      "tags": ["case_study", "comparative", "governance"]
+    },
+    {
+      "id": "10",
+      "filename": "10_Ethics_of_Presence_EP.md",
+      "role": "ethics_presence",
+      "layer_focus": ["L2", "L3", "L4"],
+      "status": "stable",
+      "summary": "Ethical and cognitive constraints governing Presence Mode, interpretive states, reversibility, and symbolic non-extraction.",
+      "depends_on": ["03_RGT_Glossary.md", "11_Phenomenological_Tech_Protocol.md"],
+      "tags": ["ethics", "cognition", "presence"]
+    },
+    {
+      "id": "11",
+      "filename": "11_Phenomenological_Tech_Protocol.md",
+      "role": "phenomenology_protocol",
+      "layer_focus": ["L0", "L1", "L2", "L4"],
+      "status": "stable",
+      "summary": "Protocol for sensing, interpreting, and integrating phenomenological data within RGT while maintaining reversibility and safety.",
+      "depends_on": ["03_RGT_Glossary.md", "10_Ethics_of_Presence_EP.md"],
+      "tags": ["phenomenology", "methods", "interpretation"]
+    },
+    {
+      "id": "12",
+      "filename": "12_Economic_Reflexivity_Module.md",
+      "role": "economic_reflexivity",
+      "layer_focus": ["L1", "L2", "L3"],
+      "status": "stable",
+      "summary": "Economic reflexivity framework for modeling value flows, reciprocity, stability, and fairness within RGT.",
+      "depends_on": ["03_RGT_Glossary.md", "06_Metrics_Appendix_Tables.md", "07_Resource_Reciprocity_Addendum.md"],
+      "tags": ["economics", "reflexivity", "value_flows"]
+    },
+    {
+      "id": "13",
+      "filename": "13_Mathematical_Foundations_Appendix.md",
+      "role": "math_appendix",
+      "layer_focus": ["L1", "L2"],
+      "status": "stable",
+      "summary": "Mathematical underpinnings of RGT, including stability theorems, small-gain conditions, drift bounds, and fairness–legitimacy coupling.",
+      "depends_on": ["03_RGT_Glossary.md", "06_Metrics_Appendix_Tables.md"],
+      "tags": ["math", "stability", "theory"]
+    },
+    {
+      "id": "14",
+      "filename": "14_Municipal_Permitting_Pilot_Charter.md",
+      "role": "pilot_charter",
+      "layer_focus": ["L0", "L1", "L2", "L3"],
+      "status": "stable",
+      "summary": "Charter for the municipal permitting pilot applying RGT v2.0 to a real public administration workflow.",
+      "depends_on": ["03_RGT_Glossary.md", "06_Metrics_Appendix_Tables.md", "15_Pilot_Dashboard_Spec.md", "16_Pilot_Risks_Register.md"],
+      "tags": ["pilot", "charter", "public_admin"]
+    },
+    {
+      "id": "15",
+      "filename": "15_Pilot_Dashboard_Spec.md",
+      "role": "pilot_dashboard_spec",
+      "layer_focus": ["L1", "L2", "L3"],
+      "status": "stable",
+      "summary": "Specification for pilot monitoring dashboards showing drift, envelope posture, loop health, and key indicators.",
+      "depends_on": ["06_Metrics_Appendix_Tables.md", "14_Municipal_Permitting_Pilot_Charter.md"],
+      "tags": ["dashboard", "monitoring", "pilot"]
+    },
+    {
+      "id": "16",
+      "filename": "16_Pilot_Risks_Register.md",
+      "role": "pilot_risks",
+      "layer_focus": ["L1", "L2", "L3"],
+      "status": "stable",
+      "summary": "Risk register for the municipal pilot, mapping risks to drift, envelope edges, reversibility, and RDL interventions.",
+      "depends_on": ["14_Municipal_Permitting_Pilot_Charter.md", "06_Metrics_Appendix_Tables.md"],
+      "tags": ["risk", "pilot", "safety"]
+    },
+    {
+      "id": "17",
+      "filename": "17_Crosslinks_Index.md",
+      "role": "crosslinks_index",
+      "layer_focus": ["L0", "L1", "L2", "L3", "L4"],
+      "status": "stable",
+      "summary": "Conceptual index mapping each numbered file to its role in the RGT Sage Core architecture.",
+      "depends_on": [],
+      "tags": ["index", "navigation", "map"]
+    },
+    {
+      "id": "OP",
+      "filename": "RGT_Sage_Operating_Instructions.md",
+      "role": "operating_instructions",
+      "layer_focus": ["L3", "L4"],
+      "status": "stable",
+      "summary": "Instructions for reading, updating, and safely interacting with the RGT Sage Core specification.",
+      "depends_on": ["03_RGT_Glossary.md", "17_Crosslinks_Index.md"],
+      "tags": ["instructions", "governance", "usage"]
+    },
+    {
+      "id": "RD",
+      "filename": "README.md",
+      "role": "readme",
+      "layer_focus": ["L0"],
+      "status": "stable",
+      "summary": "Public-facing description of RGT Sage Core, its purpose, architecture, and structure.",
+      "depends_on": ["03_RGT_Glossary.md", "17_Crosslinks_Index.md"],
+      "tags": ["meta", "entrypoint"]
+    },
+    {
+      "id": "CO",
+      "filename": "CONTRIBUTING.md",
+      "role": "contributing_guidelines",
+      "layer_focus": ["L3", "L4"],
+      "status": "stable",
+      "summary": "Guidelines for making changes to RGT Sage Core, including stability, ethics, and documentation requirements.",
+      "depends_on": ["RGT_Sage_Operating_Instructions.md"],
+      "tags": ["contributing", "process"]
+    },
+    {
+      "id": "SE",
+      "filename": "SECURITY.md",
+      "role": "security_policy",
+      "layer_focus": ["L2", "L3", "L4"],
+      "status": "stable",
+      "summary": "Security and conceptual safety policy for the RGT Sage Core repository, including vulnerability reporting guidelines.",
+      "depends_on": [],
+      "tags": ["security", "policy"]
+    },
+    {
+      "id": "NO",
+      "filename": "NOTICE",
+      "role": "notice",
+      "layer_focus": [],
+      "status": "stable",
+      "summary": "Intellectual property notice for the RGT Sage Core repository.",
+      "depends_on": [],
+      "tags": ["legal", "notice"]
+    },
+    {
+      "id": "LI",
+      "filename": "LICENSE",
+      "role": "license",
+      "layer_focus": [],
+      "status": "stable",
+      "summary": "License terms for non-commercial, attributed use of RGT Sage Core.",
+      "depends_on": [],
+      "tags": ["legal", "license"]
+    },
+    {
+      "id": "CI",
+      "filename": "CITATION.cff",
+      "role": "citation",
+      "layer_focus": [],
+      "status": "stable",
+      "summary": "Citation metadata for referencing RGT Sage Core in academic and research work.",
+      "depends_on": [],
+      "tags": ["citation", "metadata"]
+    },
+    {
+      "id": "QR",
+      "filename": "QUARTERLY_REFRESH_TEMPLATE.md",
+      "role": "quarterly_refresh_template",
+      "layer_focus": ["L0", "L1", "L2", "L3", "L4"],
+      "status": "stable",
+      "summary": "Template for quarterly review of architecture, safety envelope, loops, and repository health.",
+      "depends_on": ["06_Metrics_Appendix_Tables.md", "17_Crosslinks_Index.md"],
+      "tags": ["maintenance", "review"]
+    }
+  ]
+}

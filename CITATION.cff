@@ -1,17 +1,30 @@
 cff-version: 1.2.0
-title: Reflexive Governance Theory (RGT Sage) — Signature Edition
-version: 3.6.1
-message: If you use this work, please cite this repository (and the Zenodo DOI once available).
-type: software
+title: "Reflexive Governance Theory — Sage Core (v2.0)"
+message: "If you use RGT Sage Core in your work, please cite it as below."
+type: dataset
+
 authors:
-  - family-names: Gantz
-    given-names: Katja
-    # orcid: 0000-0000-0000-0000   # (optional—fill later)
-repository-code: https://github.com/marimbacueca/rgt-sage-core
-license: CC-BY-NC-SA-4.0
+  - family-names: "Gantz"
+    given-names: "Katja"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+
+version: "2.0.0"
+date-released: 2025-11-23
+repository-code: "https://github.com/marimbacueca/rgt-sage-core"
+
+abstract: >
+  The RGT Sage Core repository contains the v2.0 specification of Reflexive Governance Theory,
+  including the System Architecture (v0.2), Reflexive Data Loops (RDL 1–8), Safety Envelope (v2.0),
+  drift indices, symbolic coherence model, economic reflexivity, operational pilot modules,
+  and the mathematical foundations of reflexive stability.
+
 keywords:
   - governance
-  - systems theory
+  - stability theory
+  - cybernetics
   - reflexivity
-  - civic technology
-date-released: 2025-11-01
+  - AI safety
+  - symbolic systems
+  - phenomenology
+  - control theory
+  - ethics

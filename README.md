@@ -1,130 +1,266 @@
----
-version: 3.6.1
-build: 2025-11-01T00:24:46Z
-format: markdown
-type: dual
-description: "RGT Sage – Reflexive Governance Theory Core (Signature Edition)"
-sha256: 14a2ca380befc106eb83e53b87dc6c2b4d1b2f6d3c4f438748007d6c4166bf78
----
+# Reflexive Governance Theory (RGT) — Sage Core
 
-# RGT Sage — Deployable Core (v3.6.1)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxxxx)
+**RGT Sage Core** is the reference implementation of **Reflexive Governance Theory**, a system for designing, evaluating, and stabilizing governance mechanisms that learn, adapt, and self-correct.  
+This repository contains the **v2.0 specification**, including:
 
-**Purpose.**  
-A coherent, tamper-verified corpus for the **RGT Sage** agent: proofs, operations, pedagogy, dashboard, and culture adapters — finished to the edge of what can be done in-agent.
+- RGT System Architecture (v0.2)
+- Reflexive Data Loops (RDL 1–8)
+- Safety Envelope (v2.0)
+- Drift Indices & Stability Metrics
+- Phenomenological & Ethical Frameworks
+- Economic Reflexivity Module
+- Municipal Pilot Modules
+- Mathematical Foundations
 
-**Signature narrative.**  
-Clear structure, humane tone, quiet metaphor. Governance as the choreography of awareness.
-
-**Integrity.**  
-This file’s SHA-256 hash verifies corpus integrity (see header).
-
-**Root File:** `RGT_Sage_Operating_Instructions_v1.1.md`
+The repository is structured as a **research-grade governance architecture**, not software code — but its logic is compatible with future computational or agent-based implementations.
 
 ---
 
-## Structure (≤20 files)
-00 README · 01 Learning Log · 02 Intellectual Map · 03 Glossary · 04 Crisis Protocol ·  
-05 Gap Analysis · 06 Metrics · 07 Reciprocity · 08 Information Resilience · 09 Comparative (US–Chile) ·  
-10 Ethics of Presence · 11 Phenomenological Tech · 12 Economic Reflexivity · 13 Mathematical Foundations ·  
-14 Municipal Pilot Charter · 15 Dashboard Spec · 16 Risks Register · 17 Crosslinks Index ·  
-18 Operating Instructions
+## 🧭 Purpose
+
+The RGT Sage Core repository serves three functions:
+
+1. **Define the architecture** of Reflexive Governance Theory  
+2. **Provide operational modules** for real-world governance analysis and pilot systems  
+3. **Enable future AI-augmented governance tools** through clear interfaces, constraints, and documentation  
+
+The system is designed for stability, reversibility, fairness, meaning coherence, and long-term legitimacy.
 
 ---
 
-## Formal Theorems (closed set, v3.6.1)
+## 🏛️ What is Reflexive Governance Theory?
 
-**GRST — Grand Reflexive Stability Theorem.**  
-For $x_{t+1}=f(x_t,u_t)+w_t$, $u_t=\Pi(Hx_t;\alpha,K)$,  
-if the composite operator $F(\alpha,K)$ satisfies $\rho(F)+\sum_\ell g_\ell<1$  
-and $r/\kappa\le1$, then S is BIBO stable and ISS. Residue $\varepsilon>0$ persists.
+RGT approaches governance as a **reflexive system** —  
+one that must:
 
-**T2 — Irreversibility (Residue ε).**  
-Any do/undo cycle leaves $\varepsilon>0$. No perfect reversal; learning is monotone.
+- sense itself,
+- interpret itself,
+- correct itself,
+- explain itself,
+- and stabilize itself  
+over time.
 
-**T3 — Auto-audit termination.**  
-If $\mathbb{E}[D_{t+1}\mid\mathcal F_t]\le\rho D_t$ with $\rho<1$, audits terminate within finite expected steps.
+It integrates:
 
-**T4 — Rate–capacity danger threshold.**  
-Safe region $r\le r^\star<\kappa$.
+- control theory  
+- ethics  
+- cognitive science  
+- phenomenology  
+- economics  
+- symbolic systems  
+- narrative coherence  
+- public administration  
+- and human–AI partnership design  
 
-**T5 — Comprehension drives legitimacy.**  
-With $L=\phi(q,\text{perf},\text{fair},C)$ and $\partial L/\partial q>0$, small gains in $q$ lift $L$.
+The theory centers on five layers:
 
-**T6 — Bounded oscillation (stochastic).**  
-For linearization with $\rho(F)<1$, there exists $P\succ0$ solving the discrete Lyapunov equation and $\limsup \mathbb E[x_t^\top P x_t]=\operatorname{tr}(PW)$.  
-Nonlinear ISS: $\sup_t \mathbb E[V(x_t)]\le b/(1-c)$.
+- **L0 — Data & Provenance**  
+- **L1 — Indices & Drift**  
+- **L2 — Reflexive Control (α/K Stability)**  
+- **L3 — Governance Logic**  
+- **L4 — Interpretation & Explanation**  
 
-**T7 — Audit-fatigue Batching Lemma.**  
-With arrival rate $\lambda$, window $W$, cap $B_{\max}$, and shared-step contraction $\rho_\kappa<1$: queues bounded, SLA finite, optimal $W^\*$ minimizes fatigue cost.
-
-**T8 — Multi-layer stability (small-gain).**  
-If $\|F_0\|+\sum_\ell g_\ell<1$, layered control remains stable.
-
-**T9 — Incentive-compatible mechanism M.**  
-Random-partition peer quadratic scoring with DP noise makes truthful reports a Bayes–Nash equilibrium; $m$-coalition resistance in expectation.
-
-**T10 — Fairness→Legitimacy bound.**  
-If $\phi$ is Lipschitz in fairness with constant $\gamma_f>0$ and $F\ge F^\*$, then $L\ge \phi(q,\text{perf},F^\*,C)$ and $\Delta L \ge \gamma_f \Delta F$.
-
-**T11 — Participation parity convergence.**  
-For $p_{t+1}=(1-\beta)p_t+\beta h(p_t,u_t)$ with $L_h<1$ and $u_t\ge u_{\min}$, we have $p_t\to p^\*$.
-
-**T12 — Aesthetic mediation (symbolic).**  
-If $\partial C/\partial B>0$ and $\partial L/\partial C>0$, then $\partial L/\partial B>0$.
+This architecture is the foundation of the entire repository.
 
 ---
 
-## Operational Architecture (executable logic)
+## 📦 Repository Structure
 
-- **Cadence limiter:** enforce $r/\kappa \le 0.8$ (soft), $\le 1.0$ (hard stop).  
-- **Rights gate $R^\*$:** lexical constraints; non-tradeable.  
-- **Auto-audit manager:** trigger band $[\tau-\delta,\tau+\delta]$; SLA ≤ 30 days; capacity-scaled batching.  
-- **Decision-cadence optimizer:** project $(\alpha,K)$ into safe set if $\Lambda \ge 1$ or $r>\kappa$; add Crisis Dampener if $|\Delta(r/\kappa)|>0.2$ in 2 cycles.  
-- **Coherence $C=P·D·(1-D_r)$:** provenance × digestibility × anti-drift; gate at $C^\*$.  
-- **Mechanism M:** random-fold peer scoring + DP; aggregate truthful signals; bias audit per segment.  
-- **Culture adapter $A_c$:** per-locale parameter packs (U.S., Chile).  
-- **Digestibility Gate $D^\*$:** ≤800 chars per insight, ≤5 visual layers.  
-- **Epistemic Provenance Score (EPS):** quarantine datasets with EPS < 0.6.  
-- **Reflexivity depth cap:** $\Lambda_{depth} \le 3$ to prevent meta-audit explosion.
+The repository is organized into **17 numbered files**, each representing a discrete conceptual module.
 
----
+00/ (meta: file index, naming, style)
+01_LearningLog_Summary.md
+02_Chronology_IntellectualMap.md
+03_RGT_Glossary.md
+04_CrisisProtocol.md
+05_Subsystem_Gap_Analysis.md
+06_Metrics_Appendix_Tables.md
+07_Resource_Reciprocity_Addendum.md
+08_Information_Resilience_Framework.md
+09_Comparative_Systems_Chile_USA.md
+10_Ethics_of_Presence_EP.md
+11_Phenomenological_Tech_Protocol.md
+12_Economic_Reflexivity_Module.md
+13_Mathematical_Foundations_Appendix.md
+14_Municipal_Permitting_Pilot_Charter.md
+15_Pilot_Dashboard_Spec.md
+16_Pilot_Risks_Register.md
+17_Crosslinks_Index.md
+RGT_Sage_Operating_Instructions.md
+README.md (this file)
 
-## Automatic Data-Refresh Protocol (Quarterly)
 
-**Schedule:** Every 90 days (`RRULE:FREQ=QUARTERLY`).
-
-**Process**
-1. `web.search("official open data" + domain + date range)`  
-2. Extract summary statistics only (no PII); compute EPS.  
-3. Recompute $\phi$ and $(\alpha,K)$ calibration; update $q^\*, \tau, C^\*$ if indicated.  
-4. Append citation block with signed hash; update dashboard and manifest.
-
-**Fallback:** On fetch failure, retain last stable calibration and flag for human review.  
-**Controls:** Manual override via `RGT_ADMIN: update off`.
-
----
-
-## Pedagogy & Communication (Signature Style)
-
-- **Reflexive Classroom (12 modules):** discovery-first, story-later; three cognitive tracks (analytical, narrative, embodied).  
-- **Emotional regulation:** *feeling without flooding* — emotion as signal; regulation ≠ suppression.  
-- **Aquí y Ahora (US/CL):** same theorems, local metaphors; tone: warm, lucid, non-patronizing.  
-- **Aesthetic Minimums (AM1–AM3):** no public release below AM2; AM3 for official launches.  
-- **Right to Partial Reflexivity (RPR):** privacy-respecting participation with DP masking.
-
-> *RGT does not command; it listens in rhythm.  
-> Every audit is a breath, every correction a pulse.  
-> A system lives when its motion teaches it how to move.*  
->  
-> — **Katja Gantz**, *Signature Edition v3.6.1*
+Version numbers are maintained **inside each file’s YAML header**, not in the filename.
 
 ---
 
-## Change Log
-- v3.6.1 — Added quarterly auto-update, crisis dampener, EPS, D*, RPR, depth cap; narrative polish.
+## 🔧 Core Concepts in v2.0
+
+### **Reflexive Data Loops (RDL 1–8)**  
+The operational engine of RGT.
+
+- RDL-1: Signal Quality  
+- RDL-2: Intensity Reduction  
+- RDL-3: Sensitivity Calibration  
+- RDL-4: Reversibility Simulation  
+- RDL-5: Multi-Objective Balancing  
+- RDL-6: Ethics Gate  
+- RDL-7: Irreversibility Constraints  
+- RDL-8: Metabolic Cadence Stabilization  
+
+All loops must satisfy the **small-gain condition**:  
+\[
+G < 1
+\]
 
 ---
 
-## License
-Licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+### **Safety Envelope (v2.0)**  
+Protection against instability and harm:
+
+- **ε-boundary**: avoid pressure > 0.6  
+- **Reversibility (R0–R2)**  
+- **Meaning Coherence (SCI ≥ 0.65)**  
+- **Metabolic Load (MLI ≤ 0.7)**  
+- **Context separation / no cross-domain contamination**  
+
+---
+
+### **Drift Indices (SDI, NDI, SyDI, LDI, MDI)**  
+Five categories of governance drift:
+
+- Structural  
+- Normative  
+- Symbolic  
+- Legitimacy  
+- Metabolic  
+
+These form the **diagnostic layer** of RGT.
+
+---
+
+### **α/K Stability Envelope**  
+Governs corrective action:
+
+\[
+0.6 \le \alpha/K \le 1.6
+\]
+
+where:
+- α = sensitivity  
+- K = intensity  
+
+Staying in this envelope prevents oscillation, stagnation, or collapse.
+
+---
+
+### **Presence ↔ Articulation Cognitive Modes**  
+The cognitive backbone:
+
+- **Presence** = sensing, phenomenology, ambiguity  
+- **Articulation** = clarity, structure, execution  
+
+Premature switching produces governance errors.  
+Safety constraints ensure transitions are stable.
+
+---
+
+### **Symbolic Coherence & Meaning Stability**  
+Symbolic meaning is a governance variable, not a soft factor.  
+Meaning fragmentation predicts drift and instability.
+
+---
+
+### **Economic Reflexivity & Value-Flow Topology**  
+Economies are modeled as flows of:
+
+- material  
+- informational  
+- symbolic  
+- relational  
+- metabolic value  
+
+Reciprocity governs fairness and legitimacy.
+
+---
+
+## 🧪 Pilot Modules
+
+### **14–16: Municipal Permitting Pilot**
+A real-world demonstration of RGT applied to:
+
+- permit workflows  
+- irreversibility mapping  
+- fairness & legitimacy signals  
+- staff metabolic load  
+- symbolic coherence  
+- drift detection  
+- dashboard metrics  
+
+Pilots provide feedback loops for system refinement.
+
+---
+
+## 🛡️ Human–AI Partnership Model
+
+RGT Sage describes constraints for safe and beneficial human–AI co-governance:
+
+- AI stabilizes intensity  
+- humans stabilize meaning  
+- AI detects drift  
+- humans perform interpretation  
+- AI performs calibration  
+- humans retain authority and ethical primacy  
+
+The model is aligned with the **Safety Envelope v2.0**.
+
+---
+
+## 🧩 Conventions
+
+### **Versioning**
+- Version numbers appear **only** in the YAML header.
+- Git history provides file-by-file traceability.
+
+### **File Numbering**
+- Numbers (01–17) correspond to **conceptual roles**, not versions.
+
+### **Updates**
+- Major updates require modifications to:
+  - File 01 (Learning Log),
+  - File 02 (Chronology & Intellectual Map),
+  - File 17 (Crosslinks Index).
+
+---
+
+## 🚧 Future Work
+
+Planned enhancements for RGT v2.1:
+
+- agent-based simulation scaffolds  
+- computational primitive definitions  
+- expanded symbolic-field models  
+- experimental pilot modules  
+- mathematical extensions  
+- reference implementation for RDL orchestration  
+
+---
+
+## 📄 License
+
+All intellectual content is © RGT authors unless otherwise noted.  
+Commercial use requires explicit permission.
+
+---
+
+## 📬 Contact
+
+For collaboration or inquiry about RGT Sage Core:
+
+**Project Lead:**  
+Reflexive Governance Theory (RGT) — Architecture & Systems  
+Sage Core Repository Maintainer
+
+---
+
+

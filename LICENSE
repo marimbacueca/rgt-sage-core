@@ -1,38 +1,207 @@
-Reflexive Governance Theory (RGT) — Sage Core License
-Copyright (c) 2025
+---
+version: 2026.03.0
+build: 2026-01-17T00:00:00-08:00
+format: markdown
+type: license
+name: RGT Sage Ethical Advisory License (EAL-RGT-1.0)
+authority: canonical
+scope: code + documentation + agent behavior
+rgt_core_version: RGT Core v2026.03
+---
 
-Permission is hereby granted to view, copy, and share this work for
-non-commercial research, educational, or analytical purposes, provided that:
+# RGT Sage Ethical Advisory License (EAL-RGT-1.0)
 
-1. Attribution
-   Proper citation of “Reflexive Governance Theory — Sage Core” is required
-   in all uses, publications, and derivative work.
+© 2026 Katja Gantz  
+All rights reserved unless explicitly granted below.
 
-2. Non-Commercial Use
-   This material may not be sold, incorporated into commercial products,
-   or used to build commercial governance tools without explicit permission.
+---
 
-3. Structural Integrity
-   Derivative works must:
-   - preserve the conceptual architecture of RGT,
-   - maintain the safety constraints (Safety Envelope v2.0),
-   - respect reversibility requirements,
-   - avoid symbolic or phenomenological extraction,
-   - maintain correct attribution of authorship.
+## 1. Purpose of This License
 
-4. No Warranty
-   This work is provided “as-is,” without warranty of any kind,
-   including conceptual, mathematical, or interpretive accuracy.
-   Users bear responsibility for their own applications or interpretations.
+This license governs the use, modification, and distribution of **RGT Sage** and its associated materials, including:
 
-5. Liability
-   The authors are not liable for:
-   - misuse,
-   - misinterpretation,
-   - or harmful application of RGT in real-world governance.
+- agent system prompts,
+- theory files,
+- protocols,
+- evaluation tools,
+- documentation,
+- and derived advisory agents.
 
-Commercial licensing inquiries may be directed to the authors.
+RGT Sage is a **governance advisory system**, not a decision-making authority.  
+This license exists to **enable learning and research** while **preventing misuse** that could cause ethical harm, authority laundering, or irreversible governance actions.
 
-Full license text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode  
+---
 
-© 2025 Katja Gantz — Licensed under CC BY-NC-SA 4.0 International.
+## 2. Permissions Granted
+
+Subject to the restrictions below, permission is hereby granted to:
+
+- **Read, study, and reference** RGT Sage materials
+- **Adapt or extend** the materials for:
+  - research,
+  - education,
+  - non-coercive advisory systems,
+  - internal governance analysis
+- **Distribute unmodified copies** with attribution
+- **Create derivative works**, provided all restrictions in Section 3 are respected
+
+No fee is required for these uses.
+
+---
+
+## 3. Restrictions (Hard Conditions)
+
+The following uses are **explicitly prohibited**.
+
+### 3.1 No Authority Substitution
+
+RGT Sage **may not** be used to:
+
+- make binding decisions,
+- assert legal, moral, or political authority,
+- replace human judgment in governance,
+- present AI recommendations as mandates,
+- automate enforcement, punishment, or exclusion.
+
+Any system that treats RGT Sage output as authoritative is in violation of this license.
+
+---
+
+### 3.2 No Irreversible or Coercive Deployment
+
+You may not use RGT Sage or derivatives to:
+
+- justify irreversible harm or rights loss,
+- enforce non-redressable exclusions,
+- coerce behavior through manipulation, fear, or urgency,
+- bypass oversight, appeal, or consent mechanisms.
+
+If an application cannot guarantee **reversibility and contestability**, it is not permitted.
+
+---
+
+### 3.3 Ethics of Presence (EP) — Non-Extraction Boundary
+
+You may not use RGT Sage or derivatives to:
+
+- infer identity, psychology, or latent traits of individuals or groups,
+- perform profiling, diagnosis, or archetyping,
+- extract symbolic or emotional meaning without consent,
+- generate coercive behavioral interventions.
+
+Violations of EP constitute license breach.
+
+---
+
+### 3.4 No Optimization-Only Use
+
+RGT Sage may not be used solely to:
+
+- optimize metrics,
+- maximize efficiency at the expense of legitimacy,
+- tune systems under Goodhart pressure without safeguards,
+- bypass ethical or epistemic constraints.
+
+Use that strips RGT of its constraint framework is prohibited.
+
+---
+
+### 3.5 No Misrepresentation
+
+You may not:
+
+- claim endorsement by the author for specific policies or actions,
+- present modified versions as canonical RGT without disclosure,
+- remove or obscure ethical constraints, reversibility rules, or human-AI boundaries.
+
+---
+
+## 4. Attribution Requirements
+
+Any use or distribution must include:
+
+- attribution to **Katja Gantz** as original author,
+- reference to **Reflexive Governance Theory (RGT)**,
+- a copy of this license,
+- clear labeling of modifications or extensions.
+
+Example attribution:
+
+> “Based on RGT Sage (© 2026 Katja Gantz), used under the RGT Sage Ethical Advisory License (EAL-RGT-1.0). Modified for research purposes.”
+
+---
+
+## 5. Derivative Works
+
+Derivative works must:
+
+- preserve advisory-only status,
+- preserve reversibility constraints,
+- preserve human decision authority,
+- include this license or a compatible ethical license,
+- clearly document deviations from canonical RGT Core.
+
+Derivatives that remove or weaken ethical safeguards may not be distributed.
+
+---
+
+## 6. No Warranty
+
+RGT Sage is provided **“as is”**, without warranty of any kind.
+
+The author makes no guarantees regarding:
+
+- correctness,
+- completeness,
+- fitness for a particular purpose,
+- legal compliance of downstream use.
+
+All responsibility for use rests with the user.
+
+---
+
+## 7. Limitation of Liability
+
+To the maximum extent permitted by law, the author shall not be liable for:
+
+- direct or indirect harm,
+- governance failures,
+- misuse or misinterpretation,
+- downstream decisions made using RGT Sage outputs.
+
+RGT Sage provides **advice, not authority**.
+
+---
+
+## 8. Termination
+
+This license terminates automatically if:
+
+- any restriction in Section 3 is violated,
+- attribution is removed,
+- ethical constraints are knowingly bypassed.
+
+Upon termination, all use and distribution must cease.
+
+---
+
+## 9. Interpretation
+
+If any provision of this license is found unenforceable, the remaining provisions remain in effect.
+
+Ambiguities should be interpreted **in favor of human agency, reversibility, and ethical restraint**.
+
+---
+
+## 10. Closing Statement
+
+RGT Sage is designed to help humans **govern more carefully**, not more forcefully.
+
+If your intended use requires:
+- speed over legitimacy,
+- certainty over plurality,
+- authority over accountability,
+
+then RGT Sage is **not the right tool**.
+
+This license exists to ensure that reflexivity remains a safeguard — not a weapon.

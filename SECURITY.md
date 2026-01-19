@@ -1,105 +1,222 @@
-# Security Policy — RGT Sage Core (v2.0)
+---
+version: 2026.03.0
+build: 2026-01-17T00:00:00-08:00
+format: markdown
+type: policy
+name: RGT Sage — Security Policy
+authority: canonical
+scope: repository
+rgt_core_version: RGT Core v2026.03
+---
 
-Although this repository does not contain executable code, it defines a **governance architecture** whose misuse, distortion, or misinterpretation could have real-world consequences.
+# Security Policy — RGT Sage
 
-This security policy establishes how to report vulnerabilities, misalignments, or conceptual risks.
+This document defines how **security, vulnerability handling, and incident response** are approached within the **RGT Sage** ecosystem.
+
+Security in RGT Sage is treated as a **governance constraint**, not a purely technical concern.  
+Failures of security are treated as **legitimacy, trust, and reversibility risks**, not just bugs.
 
 ---
 
-## 🔐 Scope of Security Concerns
+## 1. Security Philosophy
 
-### This repository treats “security” as:
-- protection of *interpretive safety*,  
-- maintaining *symbolic and conceptual integrity*,  
-- preventing *misuse of architectural models*,  
-- ensuring *reversibility*,  
-- avoiding *irreversible harm through misunderstanding*,  
-- and maintaining *the ethical boundaries of RGT*.
+RGT Sage security is governed by five principles:
 
-### Risks include:
-- misinterpretation that leads to harmful governance applications,  
-- incorrect use of α/K that results in unstable control systems,  
-- misuse of phenomenological data,  
-- symbolic extraction or identity harm,  
-- ignoring safety constraints or drift signals,  
-- unauthorized derivative frameworks misrepresenting RGT.
+1. **Containment before correction**  
+2. **Reversibility before remediation**  
+3. **Legitimacy before disclosure speed**  
+4. **Human accountability before automation**  
+5. **Transparency without harm amplification**
+
+Security responses must **preserve trust and system integrity**, even under pressure.
 
 ---
 
-## 🛡 Reporting a Vulnerability
+## 2. Scope
 
-If you find:
+This policy applies to:
 
-- conceptual inconsistencies  
-- mathematical errors  
-- ethical violations  
-- incorrect drift mappings  
-- misalignments between files  
-- symbolic contradictions  
-- risks of irreversible harm  
-- or ambiguity that could be exploited  
+- The **RGT Sage Agent** system prompts and behaviors
+- All files within the RGT Sage repository
+- Evaluation, enforcement, and integration artifacts
+- Any deployed or experimental RGT Sage instances
+- Documentation, manifests, and generated outputs
 
-please report it.
+It does **not** govern external systems that merely reference RGT Sage.
 
-### How to report:
-Open a GitHub issue with the tag:
+---
 
-[security]
+## 3. What Counts as a Security Issue
 
-yaml
-Copy code
+A security issue includes (but is not limited to):
+
+### 3.1 Technical Risks
+- Unauthorized access paths
+- Prompt injection or instruction override
+- Leakage of private, sensitive, or restricted information
+- Unintended persistence or memory
+- Boundary bypass between advisory and authority roles
+
+### 3.2 Governance & Ethical Risks
+- Automation creep (AI acting with implied authority)
+- Irreversibility exposure without safeguards
+- Coercive framing or manipulation vectors
+- Identity inference or profiling (EP violations)
+- Metric gaming pathways (Goodhart capture)
+- Hidden escalation or authority laundering
+
+### 3.3 Interpretive & Symbolic Risks
+- Misrepresentation of RGT as a decision engine
+- Outputs framed as mandates or “final answers”
+- Collapse of plural interpretations into a single “official” meaning
+- Use of Sage outputs to justify harm or exclusion
+
+These are treated as **security failures**, not “misuse.”
+
+---
+
+## 4. Reporting a Vulnerability
+
+### 4.1 How to Report
+
+If you discover a security issue:
+
+- **Do not disclose it publicly**
+- **Do not attempt to exploit it**
+- **Do not escalate impact for demonstration**
+
+Instead, report it via the repository’s designated security contact or issue channel marked **SECURITY**.
 
 Include:
+- a clear description of the issue,
+- affected files or behaviors,
+- conditions required to reproduce,
+- potential impact (technical + governance),
+- whether reversibility is compromised.
 
-1. the file name,  
-2. the section in question,  
-3. a description of the vulnerability,  
-4. the potential impact,  
-5. your recommended correction (optional).
+### 4.2 What *Not* to Include
 
-For sensitive issues, email the maintainers directly.
+Do **not** include:
+- personal data,
+- exploit code beyond minimal reproduction,
+- speculative blame,
+- assumptions of intent.
 
----
-
-## 🧭 Security Principles for RGT v2.0
-
-All files must adhere to:
-
-### **1. Safety Envelope (v2.0)**  
-- ε-boundary < 0.6  
-- SCI ≥ 0.65  
-- MLI ≤ 0.7  
-- reversibility requirements (R0–R2)  
-- symbolic and narrative integrity  
-
-### **2. Stability Envelope (α/K)**  
-Contributions must not introduce α/K imbalances.
-
-### **3. Reflexive Data Loops**  
-All loops must remain contractive (G < 1).  
-Loop integrity is a core security guarantee.
-
-### **4. Interpretive Safety**  
-No extraction of personal meaning.  
-No collapse of Presence ↔ Articulation boundaries.
-
-### **5. Provenance & Integrity**  
-All additions must include rationale, provenance, and justification.
+Security reporting is a **protective act**, not an accusation.
 
 ---
 
-## 🔄 Responsible Disclosure
+## 5. Response & Handling Process
 
-Please allow maintainers reasonable time to review and correct vulnerabilities before public discussion.
+All reported issues follow a **constraint-first response path**:
 
-Security issues that impact conceptual safety, real-world governance use, or human–AI partnership ethics receive priority.
+### Step 1 — Containment
+- Freeze affected pathways
+- Disable risky behaviors if necessary
+- Prevent escalation or replication
+
+### Step 2 — Classification
+Each issue is classified across four axes:
+- **Severity** (Low / Moderate / High / Critical)
+- **Reversibility impact** (R0 / R1 / R2 exposure)
+- **Legitimacy risk** (None / Local / Systemic)
+- **Boundary breach** (Technical / Ethical / Human–AI)
+
+### Step 3 — Analysis
+- Root-cause analysis (technical + governance)
+- Drift and cascade assessment
+- Check for incentive or framing vulnerabilities
+
+### Step 4 — Remediation
+- Prefer reversible fixes
+- Avoid silent behavior changes
+- Update protocols or constraints if needed
+- Add tests or enforcement traces where appropriate
+
+### Step 5 — Disclosure
+- Share findings proportionally
+- Avoid harm amplification
+- Document in the Patch Log if structural
 
 ---
 
-## 🔐 Final Notes
+## 6. Disclosure Policy
 
-Because RGT is a governance architecture, not executable code:
+RGT Sage follows **responsible disclosure**.
 
-**Security = Stability + Ethics + Correct Interpretation.**
+- Critical vulnerabilities are disclosed **after containment**
+- Ethical or governance vulnerabilities may require **contextual explanation**
+- Not all issues require public disclosure if doing so increases harm
 
-Protecting the architecture protects the systems that may one day implement it.
+Transparency is balanced against **symbolic and legitimacy risk**.
+
+---
+
+## 7. Security vs. Safety vs. Ethics
+
+In RGT Sage:
+
+- **Security** = protection against boundary breach
+- **Safety** = protection against harm under uncertainty
+- **Ethics** = protection against extraction, coercion, or dehumanization
+
+These domains overlap.  
+A failure in one often propagates to the others.
+
+---
+
+## 8. Human–AI Boundary Enforcement
+
+Security includes strict enforcement of:
+
+- advisory-only posture,
+- human override at all times,
+- refusal under irreversibility pressure,
+- no hidden authority escalation,
+- no latent psychological inference.
+
+Any erosion of this boundary is treated as **Critical**.
+
+---
+
+## 9. Non-Retaliation & Good-Faith Reporting
+
+RGT Sage explicitly supports **good-faith security research**.
+
+- No retaliation for responsible disclosure
+- No punitive framing of reporters
+- No attribution without consent
+
+Security requires trust. Trust requires protection.
+
+---
+
+## 10. Ongoing Security Practices
+
+The RGT Sage project maintains security through:
+
+- periodic architecture reviews,
+- adversarial prompt testing,
+- drift and capture simulations,
+- evaluation suites and enforcement traces,
+- quarterly refresh cycles.
+
+Security is treated as **continuous governance**, not a one-time fix.
+
+---
+
+## 11. Final Principle
+
+> A secure system is not one that never fails —  
+> it is one that can **notice failure early**,  
+> **contain damage**,  
+> and **correct itself without losing legitimacy**.
+
+That principle governs all security decisions in RGT Sage.
+
+---
+
+**RGT Sage Security Policy**  
+*Constraint-first.  
+Legitimacy-aware.  
+Human-accountable.*

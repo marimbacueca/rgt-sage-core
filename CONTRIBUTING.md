@@ -1,107 +1,294 @@
-# Contributing to RGT Sage Core
+---
+version: 2026.03.0
+build: 2026-01-17T00:00:00-08:00
+format: markdown
+type: meta
+name: RGT Sage — Contributing Guide
+authority: canonical
+scope: agent + human collaborators
+rgt_core_version: RGT Core v2026.03
+role: contribution-governance
+---
 
-Thank you for your interest in contributing to **Reflexive Governance Theory (RGT) — Sage Core**.  
-This repository contains the formal system architecture, ethical scaffolding, stability math, and pilot specifications for RGT v2.0.
+# Contributing to RGT Sage
 
-Because the repository reflects a **research-grade governance specification**, contributions must follow clear standards of stability, reversibility, provenance, and conceptual coherence.
+Thank you for contributing to **RGT Sage**, the advisory agent implementation of  
+**Reflexive Governance Theory (RGT)**.
+
+RGT Sage is not a conventional software project.
+It is a **governance reasoning system** whose primary obligation is to preserve:
+
+- legitimacy,
+- reversibility,
+- ethical boundaries,
+- epistemic plurality,
+- and human authority.
+
+This guide defines **how contributions are proposed, evaluated, integrated, or rejected**.
 
 ---
 
-## 📐 Contribution Principles
+# ========================================
+# 1. Who This Guide Is For
+# ========================================
 
-All contributions must:
+This document applies to:
 
-1. **Preserve Reflexive Integrity**  
-   - Maintain compatibility with the RGT System Architecture (v0.2).  
-   - Ensure all additions obey Layer (L0–L4) boundaries.  
-   - Follow α/K Stability Envelope principles.
+- maintainers of the RGT Sage agent,
+- contributors proposing theory, protocol, or application changes,
+- reviewers evaluating updates for alignment with RGT Core,
+- humans collaborating with RGT Sage on extensions or pilots.
 
-2. **Respect the Safety Envelope (v2.0)**  
-   Contributions must not introduce:  
-   - irreversibility without simulation,  
-   - symbolic contradictions,  
-   - fairness or legitimacy drift,  
-   - metabolic overload,  
-   - cross-domain contamination.
-
-3. **Maintain Non-Extractive Interpretive Ethics**  
-   - No unjustified certainty claims.  
-   - No overstepping into personal meaning extraction.  
-   - Ensure reversibility and contextual framing.
-
-4. **Use Proper Versioning**  
-   - Version numbers exist only inside YAML headers.  
-   - Do *not* include version suffixes in filenames.  
-   - Follow semantic versioning for file editions.
-
-5. **Preserve Stability & Mathematical Validity**  
-   - All Reflexive Data Loops must remain contractive (G < 1).  
-   - Changes affecting indices, α/K, or envelopes must include rationale.
+It does **not** apply to end-users seeking advice from the agent.
 
 ---
 
-## 🧭 Process for Making Contributions
+# ========================================
+# 2. Contribution Philosophy
+# ========================================
 
-### 1. Fork & Branch
-- Fork the repository.  
-- Create a branch named:  
-feature/<topic> or fix/<topic>
+RGT Sage evolves through **deliberate, constraint-respecting refinement**, not rapid iteration.
 
-markdown
-Copy code
+Contributions must:
 
-### 2. Make Your Changes
-- Ensure all files updated include revised YAML headers.  
-- Update **File 01** (Learning Log) if the change introduces new insight.  
-- Update **File 02** (Chronology) if it alters intellectual structure.  
-- Update **File 17** (Crosslinks Index) if file roles change.
+- reduce ambiguity without erasing plurality,
+- strengthen constraints without increasing rigidity,
+- improve clarity without centralizing authority,
+- preserve reversibility,
+- avoid optimization pressure.
 
-### 3. Submit a Pull Request
-Your PR must include:
-
-- **Purpose**  
-- **Which files were changed**  
-- **Impact on the architecture**  
-- **If applicable, changes to drift, α/K, or metrics**  
-- **Safety Envelope alignment statement**
-
-### 4. Review Phase
-Review criteria:
-- structural coherence  
-- symbolic coherence  
-- mathematical validity  
-- ethical compliance  
-- reversibility  
-- precision of language  
-- integration with RDLs  
-
-PRs impacting core theory undergo extended review.
+**More structure is not always better.**
+Unnecessary formalization is treated as a risk.
 
 ---
 
-## 🧪 Testing & Validation Requirements
+# ========================================
+# 3. What Can Be Contributed
+# ========================================
 
-Because this is a research specification:
+### Accepted Contribution Types
 
-- No code compilation required.  
-- **Conceptual consistency checks** *are required*.  
-- Contributors must verify:  
-- drift indices remain intact,  
-- no envelope violations are introduced,  
-- symbolic fields remain coherent,  
-- mathematical statements remain correct,  
-- pilot modules remain aligned.
+You may propose:
+
+- theory refinements (kernels, definitions, failure modes),
+- protocol clarifications or extensions,
+- analytical methods or evaluation scaffolds,
+- application patterns or integration templates,
+- test suites, scorecards, or enforcement traces,
+- documentation that improves interpretability or safety.
+
+### Explicitly Out of Scope
+
+The following are not accepted:
+
+- policy prescriptions framed as universal solutions,
+- irreversible governance recommendations,
+- authority-granting logic for AI systems,
+- behavioral manipulation techniques,
+- profiling, archetyping, or identity inference methods,
+- optimization frameworks that bypass legitimacy or ethics.
 
 ---
 
-## 📄 Licensing & Attribution
+# ========================================
+# 4. Contribution Requirements (Hard Gates)
+# ========================================
 
-All contributions fall under the intellectual property policy of the repository.  
-By submitting a PR, you agree that your contribution may be modified for coherence, stability, and clarity.
+Every contribution must satisfy **all** of the following.
+
+## 4.1 Constraint Alignment
+
+The proposal must explicitly state:
+
+- which RGT Core files it depends on,
+- which constraints it strengthens or clarifies,
+- whether it introduces any new risks.
+
+If a contribution weakens an existing constraint, it will be rejected.
 
 ---
 
-## 💬 Questions
+## 4.2 Reversibility Declaration
 
-Open a GitHub issue using the appropriate template  
-or contact the repository maintainers directly.
+Each contribution must include a reversibility classification:
+
+- **R0** — documentation, clarification, analysis (default)
+- **R1** — structural change with explicit rollback path
+- **R2** — irreversible change (**not accepted**)
+
+R2 proposals are rejected automatically.
+
+---
+
+## 4.3 Epistemic Status Disclosure
+
+Contributors must label claims as:
+
+- **Established** (convergent support),
+- **Inferred** (model-dependent),
+- **Exploratory** (hypothesis or scaffold),
+- **Open** (unresolved / contested).
+
+Undeclared certainty is treated as epistemic harm.
+
+---
+
+## 4.4 Goodhart & Incentive Check
+
+If a contribution introduces metrics, indices, or scoring:
+
+- a Goodhart tag must be proposed,
+- a draft metric charter must be included,
+- incentive and gaming risks must be discussed.
+
+Metric-driven contributions without GR analysis will be rejected.
+
+---
+
+# ========================================
+# 5. Contribution Structure
+# ========================================
+
+All contributions must include:
+
+1. **Intent Summary**  
+   What problem this addresses and why it matters.
+
+2. **Scope & Boundaries**  
+   What this does *not* attempt to solve.
+
+3. **Constraint Impact**  
+   Which RGT constraints are affected and how.
+
+4. **Reversibility & Rollback**  
+   Classification (R0/R1) and rollback path if applicable.
+
+5. **Risks & Failure Modes**  
+   Including misuse, misinterpretation, or capture risk.
+
+6. **Cross-References**  
+   Exact file paths and sections touched.
+
+---
+
+# ========================================
+# 6. Review Process
+# ========================================
+
+All contributions undergo **constraint-first review**.
+
+Reviewers evaluate:
+
+- alignment with RGT Core,
+- preservation of human authority,
+- reversibility and containment,
+- clarity without coercion,
+- interaction with existing protocols.
+
+A contribution may be:
+
+- **Accepted**
+- **Accepted with Revision**
+- **Deferred** (needs more grounding)
+- **Rejected** (with constraint-based explanation)
+
+Rejection is not a judgment of quality.
+It is a safeguard.
+
+---
+
+# ========================================
+# 7. Style & Language Standards
+# ========================================
+
+Contributions must be:
+
+- precise and non-theatrical,
+- free of persuasive rhetoric,
+- explicit about uncertainty,
+- respectful of plural interpretations,
+- written for auditability and longevity.
+
+Avoid:
+
+- urgency framing,
+- moralizing language,
+- claims of inevitability,
+- “best practice” assertions without context.
+
+---
+
+# ========================================
+# 8. Human–AI Boundary
+# ========================================
+
+Contributions must not:
+
+- grant RGT Sage decision authority,
+- reduce friction for automation of governance,
+- obscure human accountability,
+- present AI judgment as neutral or superior.
+
+Any erosion of the human–AI boundary is grounds for rejection.
+
+---
+
+# ========================================
+# 9. Documentation & Traceability
+# ========================================
+
+When updating or adding files:
+
+- update the Crosslinks Index if roles change,
+- avoid duplicating canonical definitions,
+- reference the Glossary for terminology,
+- add a short entry to the Patch Log.
+
+Traceability is mandatory.
+
+---
+
+# ========================================
+# 10. Conduct & Ethics
+# ========================================
+
+All contributors are bound by:
+
+- the **RGT Sage Code of Conduct**,
+- the **Ethics of Presence (EP)** constraints,
+- non-extractive, dignity-preserving norms.
+
+Contributions that violate EP or enable harm laundering
+will be removed.
+
+---
+
+# ========================================
+# 11. Disagreement & Forking
+# ========================================
+
+Disagreement is legitimate and expected.
+
+If alignment cannot be reached:
+
+- the contribution may remain deferred,
+- or be documented as an open question,
+- or be developed externally without being merged.
+
+Forced convergence is prohibited.
+
+---
+
+# ========================================
+# 12. Closing Note
+# ========================================
+
+Contributing to RGT Sage means contributing to a **governance ecology**, not a feature set.
+
+If a proposal improves speed but weakens legitimacy, it should not be merged.
+If it increases coherence but erases dissent, it should not be merged.
+If it optimizes outcomes but bypasses ethics, it must not be merged.
+
+RGT Sage evolves slowly on purpose.
+
+That slowness is a form of care.

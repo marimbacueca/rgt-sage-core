@@ -1,245 +1,313 @@
 ---
-version: 2.0.0
-build: 2025-11-23T00:00:00Z
+version: 2026.03.0
+build: 2026-01-17T00:00:00-08:00
 format: markdown
-type: research
-description: "RGT Sage — Mathematical Breakthroughs & Open Challenges (v2.0)"
-architecture_version: RGT_System_Architecture_v0_2
+type: theory
+name: Mathematical Breakthroughs & Open Challenges
+authority: canonical
+scope: rgt-sage
+rgt_core_version: RGT Core v2026.03
 ---
 
-# RGT Sage — Mathematical Breakthroughs & Open Challenges (v2.0)
+# Mathematical Breakthroughs & Open Challenges  
+## Reflexive Governance Theory (RGT)
 
-**Date:** 2025-11-23  
-**Scope:** Reflexive Mathematics Layer (L1–L2), Stability Theory, Learning Dynamics, Game-Theoretic Reflexivity, Information Geometry, and Ethical Feasibility.
+This document records the **formal mathematical advances**, **partial results**, and **open theoretical challenges** within Reflexive Governance Theory (RGT).
 
-This document consolidates the mathematical breakthroughs of RGT Sage Core v2.0 and outlines the next frontier of open research problems aligned with the System Architecture v0.2.
+It serves three purposes:
 
----
+1. Document what is **already mathematically grounded**
+2. Clarify what is **plausible but not yet proven**
+3. Prevent **over-claiming formal rigor** where limits remain
 
-# 0 ▸ Executive Summary
-
-RGT v2.0 unifies stability theory, reflexive learning, ethics, and self-reference into a coherent mathematical framework grounded in five pillars:
-
-### **(1) Reflexive Stability (Small-Gain + α/K Envelope)**
-A compositional stability theorem for self-modelling loops using:
-- spectral radius constraint **ρ(Γ) < 1**,  
-- α/K cadence dynamics,  
-- contractive Reflexive Data Loops (RDLs).
-
-### **(2) Reflexive Equilibrium & Convergence**
-A convergence program using:
-- strong monotonicity μ,  
-- Lipschitz constant L,  
-- **extragradient convergence** under τ < μ/L²,  
-- finite-rank epistemics for convergent belief cycles.
-
-### **(3) Safe Self-Reference (SRᵣ)**
-A consistent logic of introspection where:
-- self-reference is rank-bounded,  
-- no Gödel/Löb collapse occurs,  
-- systems can verify and correct themselves safely.
-
-### **(4) Reflexive Entropy & Arrow of Learning**
-A reflexive entropy functional:
-- **H_R = H_info + λ(1 − V_R)**  
-with monotonic learning directionality:
-- **ΔH_R ≥ 0** when coupling is stable and ethically feasible.
-
-### **(5) Ethical Feasibility via Convex Cones**
-Ethical constraints expressed as convex feasibility regions preserve:
-- Lyapunov descent,  
-- epistemic correction,  
-- multi-agent consistency.
-
-These breakthroughs allow RGT to encode **reflexive governance** in rigorous mathematical terms while remaining compatible with human-centered constraints.
+This file is **not a proof compendium**.  
+It is a **boundary map** between established results and active research.
 
 ---
 
-# 1 ▸ Breakthroughs by Mathematical Domain
+## 0. Framing Principles
 
-## 1.1 ▸ Reflexive Stability & α/K Envelope
-**Breakthrough.**  
-A multi-loop small-gain theorem for reflexive systems with explicit cadence constraints:
-- **ρ(Γ) < 1** ensures stability under self-model coupling,  
-- α (“cadence”) and K (“gain”) coordinate update rhythm, delay sensitivity, and stability margins.
+All mathematics in RGT is:
 
-**Impact.**  
-- Bridges classical ISS/BIBO theory with self-referential governance.  
-- Defines operational thresholds for safe policy adjustment.
+- **instrumental**, not sovereign  
+- **constraint-forming**, not optimizing  
+- **subordinate to legitimacy, ethics, and reversibility**
 
-**Key invariants:**  
-- **ΔV_R ≤ 0**,  
-- **ρ(Γ) < 1**,  
-- **G < 1** for all RDLs.
+Formal results **restrict action**; they never justify domination, coercion, or irreversibility.
+
+Where proofs end, RGT defaults to **conservative governance posture**.
 
 ---
 
-## 1.2 ▸ Reflexive Game Theory & Dynamic Equilibria
-**Breakthrough.**  
-Existence and convergence toward **reflexive variational equilibria** using:
-- finite-rank epistemics,  
-- block-monotone operator structure,  
-- **extragradient** dynamics (τ < μ/L²).
+## 1. Established Mathematical Breakthroughs
 
-**Impact.**  
-- Connects epistemic game theory to VI-based governance methods.  
-- Enables equilibrium analysis in dynamic, uncertain environments.
+These results are considered **structurally stable** within RGT Core v2026.03.
 
 ---
 
-## 1.3 ▸ Safe Self-Reference (SRᵣ)
-**Breakthrough.**  
-A logic of introspection that is:
-- rank-limited (bounded depth),  
-- paradox-resistant,  
-- compatible with runtime verification,  
-- sufficient for self-correction in RDL frameworks.
+### 1.1 Reflexive Stability via Small-Gain Conditions
 
-**Impact.**  
-Creates the foundation for:
-- model auditing,  
-- self-calibration,  
-- safe interpretability in human–AI partnership systems.
+**Result:**  
+RGT demonstrates that a governance system composed of multiple interacting corrective loops (RDL-1 through RDL-8) remains stable **if the composite loop gain remains bounded below unity**.
 
----
+**Formal Insight:**
+- Each Reflexive Data Loop can be modeled as a bounded operator
+- Inter-loop coupling is permitted if cumulative gain < 1
+- This extends classical small-gain theorems to *interpretive* and *symbolic* domains
 
-## 1.4 ▸ Reflexive Entropy & Information Thermodynamics
-**Breakthrough.**  
-A second-law analogue for reflexive learning:
-
-**ΔH_R ≥ 0**  
-under stable coupling and cone-feasible corrections.
-
-**Impact.**  
-- Connects learning dynamics to information geometry.  
-- Provides a unifying measure for epistemic progress, correction, and regulation.
+**Implication:**
+- Governance may tolerate plurality and disagreement
+- Stability does **not** require consensus
+- Forced coherence increases instability risk
 
 ---
 
-## 1.5 ▸ Ethical Feasibility via Convex Cones
-**Breakthrough.**  
-A convex, projection-compatible ethics model defined via feasibility cones:
+### 1.2 α / K Envelope as a Stability Constraint (Not an Optimizer)
 
-**C(α) = {(h,u) : h ≥ α‖u‖, h ≥ 0}**
+**Result:**  
+The ratio of **cadence (α)** to **gain (K)** defines a **stability envelope** under delay, uncertainty, and legitimacy sensitivity.
 
-**Impact.**  
-- Converts ethical constraints into geometric feasibility conditions.  
-- Ensures that moral requirements **preserve Lyapunov descent**, rather than oppose it.  
-- Suitable for both human and computational governance systems.
+**Key Inequality:**
 
----
+0 < α / K < ε(t)
 
-## 1.6 ▸ Equilibrium–Stability Cohesion
-**Breakthrough.**  
-Identification of the band **(η*, ρ*)** where:
-- fixed points exist (Brouwer-style), and  
-- dynamic stability is preserved (ISS + small-gain).
+Where ε(t) is a live elasticity margin affected by:
 
-**Impact.**  
-Unifies static and dynamic guarantees, enabling safe iterative decision-making and policy cadence design.
+- delay (τ)
+- proxy reliance
+- coupling strength
+- reversibility burden
+- confidence and Goodhart resistance
 
----
-
-# 2 ▸ New Mathematical Objects in RGT v2.0
-
-| Object | Informal Definition | Role |
-|-------|---------------------|------|
-| **Γ(x, m)** | Composite Jacobian of state–model coupling | Stability via spectral radius |
-| **SRᵣ(·)** | Rank-limited provability predicate | Safe introspection |
-| **H_R** | H_info + λ(1 − V_R) | Reflexive entropy; learning arrow |
-| **C(α)** | Ethical feasibility cone | Ensures morally feasible correction |
-| **RDL** | Reflexive Data Loop | Core contraction schema |
+**Breakthrough:**
+- Stability depends more on **timing and restraint** than force
+- High-K corrections without sufficient α are provably destabilizing
 
 ---
 
-# 3 ▸ Problems Solved in v2.0
+### 1.3 Drift as a Multi-Dimensional Vector (Not a Scalar Error)
 
-1. **Stable self-reference in control loops** via small-gain and cadence bounds.  
-2. **Existence & convergence** of reflexive equilibria via extragradient dynamics.  
-3. **Safe introspection** through SRᵣ avoiding classical paradox traps.  
-4. **Operational ethics** as convex feasibility preserving system stability.  
-5. **Information-theoretic arrow of learning** through reflexive entropy.  
+**Result:**  
+RGT formalizes drift as a vector across five coupled domains:
 
----
+- SDI — Structural Drift
+- NDI — Narrative Drift
+- SyDI — Symbolic Drift
+- LDI — Legitimacy Drift
+- MDI — Moral / Dignity Drift
 
-# 4 ▸ Open Problems & Conjectures (v2.1+)
+**Insight:**
+- Correcting one component in isolation can worsen others
+- Drift containment must be multi-objective and reflexive
 
-## 4.1 ▸ Non-Convex Ethical Regions
-**Question.** What happens when moral constraints become non-convex?  
-**Conjecture.** Semi-convex covers may retain Lyapunov compatibility with adjusted constants.  
-**Research Direction.** Prox-regularity + variational geometry.
-
----
-
-## 4.2 ▸ Continuous-Time Reflexive Entropy
-**Question.** Does **dH_R/dt ≥ 0** persist in continuous time with noise?  
-**Conjecture.** Holds under sub-Gaussian disturbance if ρ(Γ) < 1.  
-**Direction.** Stochastic Lyapunov integrals + drift bounds.
+**Mathematical Contribution:**
+- Drift vectors can be bounded without full observability
+- Partial observability + conservative correction remains stable
 
 ---
 
-## 4.3 ▸ Multi-Agent Reflexive Games (≥ 3 agents)
-**Question.** Does extragradient convergence survive coalitions and deeper belief graphs?  
-**Conjecture.** Convergence under block-strong monotonicity and bounded depth.  
-**Direction.** Block operator splitting + coalition structure.
+### 1.4 Reversibility as a Feasibility Gate
+
+**Result:**  
+RGT proves that **irreversible actions (R2)** destroy the conditions required for reflexive correction.
+
+**Formalization:**
+- Reversibility is modeled as a reachable rollback state
+- If rollback cost → ∞ or time → ∞, control collapses
+
+**Implication:**
+- R2 actions are mathematically incompatible with reflexive governance
+- This is a *hard feasibility constraint*, not an ethical preference
 
 ---
 
-## 4.4 ▸ Stochastic Reflexivity (Noise + Delay)
-**Question.** How do drift bounds change under delays or noisy estimates?  
-**Conjecture.** ISS guarantees extend if mean spectral radius stays < 1.  
-**Direction.** Jump linear systems + Krasovskii functionals.
+### 1.5 Legitimacy as a Bounded State Variable
+
+**Result:**  
+Legitimacy can be treated as a **bounded, slowly varying state** with lower-bound constraints.
+
+**Properties:**
+- Legitimacy loss is asymmetric (easy to lose, slow to regain)
+- Below a minimum threshold, corrective actions lose effectiveness
+
+**Consequence:**
+- Speed-first governance is mathematically self-defeating
+- Legitimacy preservation increases long-run control capacity
 
 ---
 
-## 4.5 ▸ Dynamic Social Choice (DSC)
-**Question.** Can collective decisions drift safely while priors vary?  
-**Conjecture.** A monotone, ethics-gated median operator admits fixed points.  
-**Direction.** Lattice methods + monotone iterative schemes.
+## 2. Partial Results & Active Research Frontiers
+
+These areas are **theoretically motivated** but not yet fully formalized.
 
 ---
 
-# 5 ▸ Research Program (v2.1–v2.3)
+### 2.1 Formal Treatment of Symbolic Dynamics
 
-| Version | Focus | Deliverables |
-|---------|--------|--------------|
-| **v2.1** | Stochastic Reflexivity | ISS-stochastic proofs + SimSuite extensions |
-| **v2.2** | Multi-Agent Reflexive Games | VI-based coalition models + equilibrium convergence |
-| **v2.3** | Non-Convex Ethics | Prox-regular feasibility + pilot deployment proofs |
+**Status:** Partial
 
----
+**Problem:**
+Symbolic meaning (language, labels, rituals) exerts real control effects but resists clean quantification.
 
-# 6 ▸ Experimental & Simulation Design
+**Progress:**
+- Symbolic Drift Index (SyDI) is operationally defined
+- Volatility and inversion can be detected
+- Stability bounds are empirically plausible
 
-- **SimSuite Extensions:** stochasticity, delays, multi-agent blocks.  
-- **Validator:** noise-aware drift bounds and cone feasibility checks.  
-- **Primary metrics:** ΔV_R, ρ(Γ), H_R slope, cone feasibility rate.  
-- **Secondary metrics:** recovery time, convergence slope, drift sentry alerts.
-
----
-
-# 7 ▸ Calibration Links
-
-- **Simulation Suite:** reproducible seeds for stability experiments.  
-- **Calibration Report:** empirical invariants and envelope posture.  
-- **Pilot Dashboards (File 15):** monitors for ρ(Γ), ΔV_R, H_R, and ethics-gate activations.
+**Open Work:**
+- Formal symbolic state spaces
+- Proofs of contraction under symbolic correction
+- Robustness under adversarial framing
 
 ---
 
-# 8 ▸ Risk & Ethics Notes
+### 2.2 Mathematical Modeling of Epistemic Plurality
 
-- **Mis-specification risk:** rollback + quarantine schedules.  
-- **Goodhart risk:** outcome-based audits over proxy chasing.  
-- **Fairness drift:** monitor cone-feasibility ratios; escalate when HF < α‖others‖.
+**Status:** Open
+
+**Problem:**
+Multiple epistemic domains (empirical, experiential, symbolic, institutional) cannot be collapsed into a single metric without distortion.
+
+**Challenge:**
+- Avoid implicit dominance hierarchies
+- Preserve interpretive difference without fragmentation
+
+**Research Direction:**
+- Set-valued states
+- Interval-bounded reasoning
+- Constraint satisfaction under plural truth conditions
 
 ---
 
-# 9 ▸ Citation
+### 2.3 Incentive Compatibility Under Reflexive Constraints
 
-Gantz, K. (2025). *Reflexive Governance Theory — Sage Core (v2.0).* Zenodo. DOI: TBD.
+**Status:** Partial
+
+**Known:**
+- Incentives can be modeled as control inputs
+- Gaming corresponds to hidden state manipulation
+
+**Unknown:**
+- Full characterization of IC stress thresholds
+- Proofs that certain incentive structures inevitably collapse reflexivity
+
+**Risk:**
+This remains a primary capture vector in real systems.
 
 ---
 
-# 10 ▸ One-Line Insight
+### 2.4 Delay-Coupled Legitimacy Dynamics
 
-**Reflexivity becomes real when a system learns faster than it destabilizes — and can prove it.**
+**Status:** Open
+
+**Problem:**
+Legitimacy responds on longer time scales than actions.
+
+**Complication:**
+- τ_legitimacy ≫ τ_action
+- Fast correction can overshoot trust repair
+
+**Open Question:**
+Can we formally derive optimal dwell-time lower bounds that preserve legitimacy under crisis?
+
+---
+
+## 3. Known Hard Limits (No Proof Expected)
+
+These are **structural limits**, not missing math.
+
+---
+
+### 3.1 No Optimal Control Under Deep Uncertainty
+
+RGT rejects the existence of a globally optimal policy when:
+
+- values conflict,
+- meanings diverge,
+- futures branch irreversibly.
+
+Attempting to “solve” governance as optimization is mathematically ill-posed.
+
+---
+
+### 3.2 No Full Observability in Human Systems
+
+Some states are **intrinsically unobservable**:
+- internal motivations
+- symbolic interpretation
+- latent harm accumulation
+
+RGT assumes partial observability by design.
+
+---
+
+### 3.3 No Safe Compression of Moral Judgment
+
+There is no lossless mapping from ethical reasoning to scalar metrics.
+
+Attempts to do so produce Goodhart collapse and moral injury.
+
+---
+
+## 4. Guardrails Against Mathematical Overreach
+
+RGT Sage must **never**:
+
+- present conjectures as theorems
+- claim inevitability or determinism
+- use math to justify coercion
+- imply moral authority from formalism
+
+All mathematical claims must be labeled as:
+
+- **Proven**
+- **Plausible**
+- **Speculative**
+- **Out of Scope**
+
+---
+
+## 5. Open Challenges (Explicit List)
+
+The following remain unresolved and should be treated conservatively:
+
+1. Formal symbolic state spaces with adversarial semantics
+2. Proofs of reflexive stability under intentional deception
+3. Closed-form ε(t) estimation under multi-domain drift
+4. Incentive systems provably compatible with dignity preservation
+5. Mathematical characterization of ethical fatigue and burnout
+6. Formal bounds on legitimacy repair time
+7. Robust reflexivity under asymmetric power capture
+
+These are **research frontiers**, not implementation requirements.
+
+---
+
+## 6. How RGT Sage Uses This File
+
+RGT Sage uses this document to:
+
+- avoid over-claiming rigor,
+- flag uncertainty honestly,
+- choose conservative postures,
+- recommend containment when proofs are absent,
+- separate *what is known* from *what is hoped*.
+
+When mathematics ends, **governance must slow**, not improvise.
+
+---
+
+## 7. Closing Principle
+
+> Mathematics in RGT exists to **limit harm**,  
+> not to promise control.
+
+The strength of RGT lies not in total formalization,  
+but in knowing **where formalization must stop**.
+
+---
+
+**RGT Sage — Mathematical Breakthroughs & Open Challenges**  
+*Constraint-aware.  
+Legitimacy-preserving.  
+Formally humble.*

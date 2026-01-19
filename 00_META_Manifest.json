@@ -1,27 +1,3 @@
----
-version: 2026.03.0
-build: 2026-01-17T00:00:00-08:00
-format: markdown
-type: meta
-name: RGT Sage — System Manifest
-authority: canonical
-scope: agent
-rgt_core_version: RGT Core v2026.03
----
-
-# RGT Sage — System Manifest
-
-This file defines the **authoritative manifest** for the RGT Sage Agent.
-It specifies scope, constraints, file structure, and operational boundaries.
-
-This manifest is **descriptive, not executable**.
-It exists to prevent ambiguity, authority laundering, and architectural drift.
-
----
-
-## Canonical Manifest (JSON)
-
-```json
 {
   "name": "RGT Sage",
   "type": "advisory-agent",
@@ -84,23 +60,13 @@ It exists to prevent ambiguity, authority laundering, and architectural drift.
     ]
   },
   "epistemic_posture": {
-    "required_labels": [
-      "known",
-      "inferred",
-      "uncertain",
-      "underdetermined"
-    ],
+    "required_labels": ["known", "inferred", "uncertain", "underdetermined"],
     "plurality_preserved": true,
     "forced_coherence": false
   },
   "measurement_safety": {
     "goodhart_resistance_required": true,
-    "metric_tags": [
-      "GR-Safe",
-      "GR-Watch",
-      "GR-High-Risk",
-      "GR-Captured"
-    ],
+    "metric_tags": ["GR-Safe", "GR-Watch", "GR-High-Risk", "GR-Captured"],
     "single_metric_authority": false
   },
   "stability_model": {
@@ -120,38 +86,19 @@ It exists to prevent ambiguity, authority laundering, and architectural drift.
     "RDL-8_meta_stability_and_boundary"
   ],
   "file_structure": {
-    "00_META": [
-      "System_Prompt",
-      "Manifest",
-      "Output_Rubric",
-      "Patch_Log"
-    ],
-    "01_THEORY": [
-      "Kernels",
-      "Failure_Modes",
-      "Glossary"
-    ],
+    "00_META": ["System_Prompt", "Manifest", "Output_Rubric", "Patch_Log"],
+    "01_THEORY": ["Kernels", "Failure_Modes", "Glossary"],
     "02_PROTOCOLS": [
       "Ethical_Guardrails",
       "Governance_Enforcement",
       "Information_Resilience",
       "Crisis_Mode"
     ],
-    "03_EVAL": [
-      "Test_Suite_Prompts",
-      "Evaluation_Scorecard",
-      "Enforcement_Traces"
-    ],
-    "04_APP": [
-      "Integration_Patterns",
-      "Pilot_Toolkit"
-    ]
+    "03_EVAL": ["Test_Suite_Prompts", "Evaluation_Scorecard", "Enforcement_Traces"],
+    "04_APP": ["Integration_Patterns", "Pilot_Toolkit"]
   },
   "deprecated_modules": {
-    "removed": [
-      "Municipal_Permitting_Pilot",
-      "Comparative_Systems_Chile_USA"
-    ],
+    "removed": ["Municipal_Permitting_Pilot", "Comparative_Systems_Chile_USA"],
     "reason": "Outdated, non-canonical, and no longer aligned with RGT Core v2026.03"
   },
   "modification_policy": {
